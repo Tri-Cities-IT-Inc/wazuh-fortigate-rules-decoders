@@ -5613,7 +5613,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100711" level="4">
+    <rule id="100711" level="0">
         <!-- LOG_ID_EVENT_SYS_PERF -->
         <if_sid>100010</if_sid>
         <field name="logid">040704$</field>

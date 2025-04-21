@@ -22,6 +22,7 @@ I am working hard on that to improve and expand the functionalities. Leave a sta
    systemctl restart wazuh-manager
    ```
 
+
 Rules classification
 ====================
 

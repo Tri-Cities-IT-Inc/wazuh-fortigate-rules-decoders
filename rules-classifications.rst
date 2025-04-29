@@ -6,7 +6,8 @@ These levels are used to classify rules and prioritize responses based on the po
 Lower levels (e.g., 0-1) typically indicate critical issues requiring immediate attention, while higher levels (e.g., 5-6) 
 represent less severe events or informational messages.
 
- Level  | Name                             | Description                                                                                                       
++-------+----------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Level | Name                             | Description                                                                                                        |
 +=======+==================================+====================================================================================================================+
 | 0     | Ignored                          | The system is unusable or not responding.                                                                          |
 +-------+----------------------------------+--------------------------------------------------------------------------------------------------------------------+

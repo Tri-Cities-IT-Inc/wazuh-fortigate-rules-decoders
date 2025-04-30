@@ -10101,7 +10101,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101272" level="4">
+    <rule id="101272" level="6">
         <!-- LOG_ID_URL_FILTER_SRV_CERT_ERR_BLK -->
         <if_sid>100010</if_sid>
         <field name="logid">012555$</field>
@@ -10109,7 +10109,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101273" level="4">
+    <rule id="101273" level="9">
         <!-- LOG_ID_URL_FILTER_SRV_CERT_ERR_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012556$</field>
@@ -10117,7 +10117,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101274" level="4">
+    <rule id="101274" level="12">
         <!-- LOG_ID_URL_FILTER_FAMS_NOT_ACTIVE -->
         <if_sid>100010</if_sid>
         <field name="logid">012557$</field>
@@ -10133,7 +10133,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101276" level="4">
+    <rule id="101276" level="3">
         <!-- LOG_ID_URL_FILTER_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012559$</field>
@@ -10141,7 +10141,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101277" level="4">
+    <rule id="101277" level="5">
         <!-- LOG_ID_URL_WISP_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">012560$</field>
@@ -10149,7 +10149,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101278" level="4">
+    <rule id="101278" level="5">
         <!-- LOG_ID_URL_WISP_REDIR -->
         <if_sid>100010</if_sid>
         <field name="logid">012561$</field>
@@ -10157,7 +10157,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101279" level="4">
+    <rule id="101279" level="3">
         <!-- LOG_ID_URL_WISP_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">012562$</field>
@@ -10165,7 +10165,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101280" level="4">
+    <rule id="101280" level="2">
         <!-- LOG_ID_WEB_SSL_EXEMPT -->
         <if_sid>100010</if_sid>
         <field name="logid">012688$</field>

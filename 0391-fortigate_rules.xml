@@ -9813,7 +9813,7 @@
         <group>fortios.event.virus,fortios.category.analytics,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101236" level="4">
+    <rule id="101236" level="6">
         <!-- MESGID_CONTENT_DISARM_NOTIF -->
         <if_sid>100010</if_sid>
         <field name="logid">09239$</field>
@@ -9821,7 +9821,7 @@
         <group>fortios.event.virus,fortios.category.content-disarm,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101237" level="4">
+    <rule id="101237" level="6">
         <!-- MESGID_CONTENT_DISARM_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">09240$</field>
@@ -9829,7 +9829,7 @@
         <group>fortios.event.virus,fortios.category.content-disarm,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101238" level="4">
+    <rule id="101238" level="2">
         <!-- LOGID_EVENT_VOIP_SIP -->
         <if_sid>100010</if_sid>
         <field name="logid">044032$</field>
@@ -9837,7 +9837,7 @@
         <group>fortios.event.voip,fortios.category.voip,fortios.severity.information</group>
     </rule>
 
-    <rule id="101239" level="4">
+    <rule id="101239" level="5">
         <!-- LOGID_EVENT_VOIP_SIP_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">044033$</field>
@@ -9845,7 +9845,7 @@
         <group>fortios.event.voip,fortios.category.voip,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101240" level="4">
+    <rule id="101240" level="13">
         <!-- LOGID_EVENT_VOIP_SIP_FUZZING -->
         <if_sid>100010</if_sid>
         <field name="logid">044034$</field>
@@ -9853,7 +9853,7 @@
         <group>fortios.event.voip,fortios.category.voip,fortios.severity.information</group>
     </rule>
 
-    <rule id="101241" level="4">
+    <rule id="101241" level="2">
         <!-- LOGID_EVENT_VOIP_SCCP_REGISTER -->
         <if_sid>100010</if_sid>
         <field name="logid">044035$</field>
@@ -9861,7 +9861,7 @@
         <group>fortios.event.voip,fortios.category.voip,fortios.severity.information</group>
     </rule>
 
-    <rule id="101242" level="4">
+    <rule id="101242" level="2">
         <!-- LOGID_EVENT_VOIP_SCCP_UNREGISTER -->
         <if_sid>100010</if_sid>
         <field name="logid">044036$</field>
@@ -9869,7 +9869,7 @@
         <group>fortios.event.voip,fortios.category.voip,fortios.severity.information</group>
     </rule>
 
-    <rule id="101243" level="4">
+    <rule id="101243" level="5">
         <!-- LOGID_EVENT_VOIP_SCCP_CALL_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">044037$</field>
@@ -9877,7 +9877,7 @@
         <group>fortios.event.voip,fortios.category.voip,fortios.severity.information</group>
     </rule>
 
-    <rule id="101244" level="4">
+    <rule id="101244" level="2">
         <!-- LOGID_EVENT_VOIP_SCCP_CALL_INFO -->
         <if_sid>100010</if_sid>
         <field name="logid">044038$</field>
@@ -9885,7 +9885,7 @@
         <group>fortios.event.voip,fortios.category.voip,fortios.severity.information</group>
     </rule>
 
-    <rule id="101245" level="4">
+    <rule id="101245" level="5">
         <!-- LOGID_WAF_SIGNATURE_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">030248$</field>
@@ -9893,7 +9893,7 @@
         <group>fortios.event.waf,fortios.category.waf-signature,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101246" level="4">
+    <rule id="101246" level="3">
         <!-- LOGID_WAF_SIGNATURE_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">030249$</field>
@@ -9901,7 +9901,7 @@
         <group>fortios.event.waf,fortios.category.waf-signature,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101247" level="4">
+    <rule id="101247" level="14">
         <!-- LOGID_WAF_SIGNATURE_ERASE -->
         <if_sid>100010</if_sid>
         <field name="logid">030250$</field>
@@ -9909,7 +9909,7 @@
         <group>fortios.event.waf,fortios.category.waf-signature,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101248" level="4">
+    <rule id="101248" level="5">
         <!-- LOGID_WAF_CUSTOM_SIGNATURE_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">030251$</field>
@@ -9917,7 +9917,7 @@
         <group>fortios.event.waf,fortios.category.waf-custom-signature,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101249" level="4">
+    <rule id="101249" level="3">
         <!-- LOGID_WAF_CUSTOM_SIGNATURE_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">030252$</field>
@@ -9925,7 +9925,7 @@
         <group>fortios.event.waf,fortios.category.waf-custom-signature,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101250" level="4">
+    <rule id="101250" level="5">
         <!-- LOGID_WAF_METHOD_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">030253$</field>
@@ -9933,7 +9933,7 @@
         <group>fortios.event.waf,fortios.category.waf-http-method,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101251" level="4">
+    <rule id="101251" level="5">
         <!-- LOGID_WAF_ADDRESS_LIST_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">030255$</field>
@@ -9941,7 +9941,7 @@
         <group>fortios.event.waf,fortios.category.waf-address-list,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101252" level="4">
+    <rule id="101252" level="5">
         <!-- LOGID_WAF_CONSTRAINTS_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">030257$</field>
@@ -9949,7 +9949,7 @@
         <group>fortios.event.waf,fortios.category.waf-http-constraint,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101253" level="4">
+    <rule id="101253" level="3">
         <!-- LOGID_WAF_CONSTRAINTS_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">030258$</field>
@@ -9957,7 +9957,7 @@
         <group>fortios.event.waf,fortios.category.waf-http-constraint,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101254" level="4">
+    <rule id="101254" level="3">
         <!-- LOGID_WAF_URL_ACCESS_PERMIT -->
         <if_sid>100010</if_sid>
         <field name="logid">030259$</field>
@@ -9965,7 +9965,7 @@
         <group>fortios.event.waf,fortios.category.waf-url-access,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101255" level="4">
+    <rule id="101255" level="9">
         <!-- LOGID_WAF_URL_ACCESS_BYPASS -->
         <if_sid>100010</if_sid>
         <field name="logid">030260$</field>
@@ -9973,7 +9973,7 @@
         <group>fortios.event.waf,fortios.category.waf-url-access,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101256" level="4">
+    <rule id="101256" level="5">
         <!-- LOGID_WAF_URL_ACCESS_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">030261$</field>
@@ -9981,7 +9981,7 @@
         <group>fortios.event.waf,fortios.category.waf-url-access,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101257" level="4">
+    <rule id="101257" level="7">
         <!-- LOG_ID_WEB_CONTENT_BANWORD -->
         <if_sid>100010</if_sid>
         <field name="logid">012288$</field>
@@ -9989,7 +9989,7 @@
         <group>fortios.event.webfilter,fortios.category.content,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101258" level="4">
+    <rule id="101258" level="3">
         <!-- LOG_ID_WEB_CONTENT_EXEMPTWORD -->
         <if_sid>100010</if_sid>
         <field name="logid">012290$</field>
@@ -9997,7 +9997,7 @@
         <group>fortios.event.webfilter,fortios.category.content,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101259" level="4">
+    <rule id="101259" level="3">
         <!-- LOG_ID_WEB_CONTENT_KEYWORD -->
         <if_sid>100010</if_sid>
         <field name="logid">012292$</field>
@@ -10005,7 +10005,7 @@
         <group>fortios.event.webfilter,fortios.category.content,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101260" level="4">
+    <rule id="101260" level="3">
         <!-- LOG_ID_WEB_CONTENT_SEARCH -->
         <if_sid>100010</if_sid>
         <field name="logid">012293$</field>
@@ -10013,7 +10013,7 @@
         <group>fortios.event.webfilter,fortios.category.content,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101261" level="4">
+    <rule id="101261" level="5">
         <!-- LOG_ID_URL_FILTER_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">012544$</field>
@@ -10021,7 +10021,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101262" level="4">
+    <rule id="101262" level="3">
         <!-- LOG_ID_URL_FILTER_EXEMPT -->
         <if_sid>100010</if_sid>
         <field name="logid">012545$</field>
@@ -10029,7 +10029,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101263" level="4">
+    <rule id="101263" level="3">
         <!-- LOG_ID_URL_FILTER_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">012546$</field>
@@ -10037,7 +10037,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101264" level="4">
+    <rule id="101264" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_HTTP_BLK -->
         <if_sid>100010</if_sid>
         <field name="logid">012547$</field>
@@ -10045,7 +10045,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101265" level="4">
+    <rule id="101265" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_HTTPS_BLK -->
         <if_sid>100010</if_sid>
         <field name="logid">012548$</field>
@@ -10053,7 +10053,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101266" level="4">
+    <rule id="101266" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_HTTP_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012549$</field>
@@ -10061,7 +10061,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101267" level="4">
+    <rule id="101267" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_HTTPS_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012550$</field>

@@ -10069,7 +10069,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101268" level="4">
+    <rule id="101268" level="12">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_SNI_BLK -->
         <if_sid>100010</if_sid>
         <field name="logid">012551$</field>
@@ -10077,7 +10077,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101269" level="4">
+    <rule id="101269" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_SNI_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012552$</field>
@@ -10085,7 +10085,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101270" level="4">
+    <rule id="101270" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_CERT -->
         <if_sid>100010</if_sid>
         <field name="logid">012553$</field>
@@ -10093,7 +10093,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101271" level="4">
+    <rule id="101271" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_SESSION -->
         <if_sid>100010</if_sid>
         <field name="logid">012554$</field>
@@ -10101,7 +10101,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101272" level="4">
+    <rule id="101272" level="6">
         <!-- LOG_ID_URL_FILTER_SRV_CERT_ERR_BLK -->
         <if_sid>100010</if_sid>
         <field name="logid">012555$</field>
@@ -10109,7 +10109,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101273" level="4">
+    <rule id="101273" level="9">
         <!-- LOG_ID_URL_FILTER_SRV_CERT_ERR_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012556$</field>
@@ -10117,7 +10117,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101274" level="4">
+    <rule id="101274" level="12">
         <!-- LOG_ID_URL_FILTER_FAMS_NOT_ACTIVE -->
         <if_sid>100010</if_sid>
         <field name="logid">012557$</field>
@@ -10133,7 +10133,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101276" level="4">
+    <rule id="101276" level="3">
         <!-- LOG_ID_URL_FILTER_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012559$</field>
@@ -10141,7 +10141,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101277" level="4">
+    <rule id="101277" level="5">
         <!-- LOG_ID_URL_WISP_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">012560$</field>
@@ -10149,7 +10149,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101278" level="4">
+    <rule id="101278" level="5">
         <!-- LOG_ID_URL_WISP_REDIR -->
         <if_sid>100010</if_sid>
         <field name="logid">012561$</field>
@@ -10157,7 +10157,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101279" level="4">
+    <rule id="101279" level="3">
         <!-- LOG_ID_URL_WISP_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">012562$</field>
@@ -10165,7 +10165,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101280" level="4">
+    <rule id="101280" level="2">
         <!-- LOG_ID_WEB_SSL_EXEMPT -->
         <if_sid>100010</if_sid>
         <field name="logid">012688$</field>
@@ -10173,7 +10173,7 @@
         <group>fortios.event.webfilter,fortios.category.ssl-exempt,fortios.severity.information</group>
     </rule>
 
-    <rule id="101281" level="4">
+    <rule id="101281" level="12">
         <!-- LOG_ID_WEB_FTGD_ERR -->
         <if_sid>100010</if_sid>
         <field name="logid">012800$</field>
@@ -10189,7 +10189,7 @@
         <group>fortios.event.webfilter,fortios.category.ftgd_err,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101283" level="4">
+    <rule id="101283" level="2">
         <!-- LOG_ID_WEB_FTGD_QUOTA -->
         <if_sid>100010</if_sid>
         <field name="logid">012802$</field>
@@ -10197,7 +10197,7 @@
         <group>fortios.event.webfilter,fortios.category.ftgd_quota,fortios.severity.information</group>
     </rule>
 
-    <rule id="101284" level="4">
+    <rule id="101284" level="5">
         <!-- LOG_ID_WEB_FTGD_CAT_BLK -->
         <if_sid>100010</if_sid>
         <field name="logid">013056$</field>
@@ -10205,7 +10205,7 @@
         <group>fortios.event.webfilter,fortios.category.ftgd_blk,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101285" level="4">
+    <rule id="101285" level="7">
         <!-- LOG_ID_WEB_FTGD_CAT_WARN -->
         <if_sid>100010</if_sid>
         <field name="logid">013057$</field>
@@ -10213,7 +10213,7 @@
         <group>fortios.event.webfilter,fortios.category.ftgd_blk,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101286" level="4">
+    <rule id="101286" level="3">
         <!-- LOG_ID_WEB_FTGD_CAT_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013312$</field>
@@ -10221,7 +10221,7 @@
         <group>fortios.event.webfilter,fortios.category.ftgd_allow,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101287" level="4">
+    <rule id="101287" level="2">
         <!-- LOG_ID_WEB_FTGD_QUOTA_COUNTING -->
         <if_sid>100010</if_sid>
         <field name="logid">013315$</field>
@@ -10229,7 +10229,7 @@
         <group>fortios.event.webfilter,fortios.category.ftgd_quota_counting,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101288" level="4">
+    <rule id="101288" level="5">
         <!-- LOG_ID_WEB_FTGD_QUOTA_EXPIRED -->
         <if_sid>100010</if_sid>
         <field name="logid">013316$</field>
@@ -10237,7 +10237,7 @@
         <group>fortios.event.webfilter,fortios.category.ftgd_quota_expired,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101289" level="4">
+    <rule id="101289" level="2">
         <!-- LOG_ID_WEB_URL -->
         <if_sid>100010</if_sid>
         <field name="logid">013317$</field>
@@ -10245,7 +10245,7 @@
         <group>fortios.event.webfilter,fortios.category.urlmonitor,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101290" level="4">
+    <rule id="101290" level="6">
         <!-- LOG_ID_WEB_SCRIPTFILTER_ACTIVEX -->
         <if_sid>100010</if_sid>
         <field name="logid">013568$</field>
@@ -10253,7 +10253,7 @@
         <group>fortios.event.webfilter,fortios.category.activexfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101291" level="4">
+    <rule id="101291" level="2">
         <!-- LOG_ID_WEB_SCRIPTFILTER_COOKIE -->
         <if_sid>100010</if_sid>
         <field name="logid">013573$</field>
@@ -10261,7 +10261,7 @@
         <group>fortios.event.webfilter,fortios.category.cookiefilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101292" level="4">
+    <rule id="101292" level="6">
         <!-- LOG_ID_WEB_SCRIPTFILTER_APPLET -->
         <if_sid>100010</if_sid>
         <field name="logid">013584$</field>
@@ -10269,7 +10269,7 @@
         <group>fortios.event.webfilter,fortios.category.appletfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101293" level="4">
+    <rule id="101293" level="6">
         <!-- LOG_ID_WEB_SCRIPTFILTER_OTHER -->
         <if_sid>100010</if_sid>
         <field name="logid">013600$</field>
@@ -10277,7 +10277,7 @@
         <group>fortios.event.webfilter,fortios.category.scriptfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101294" level="4">
+    <rule id="101294" level="2">
         <!-- LOG_ID_WEB_WF_COOKIE -->
         <if_sid>100010</if_sid>
         <field name="logid">013601$</field>
@@ -10285,7 +10285,7 @@
         <group>fortios.event.webfilter,fortios.category.cookiefilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101295" level="4">
+    <rule id="101295" level="2">
         <!-- LOG_ID_WEB_WF_REFERER -->
         <if_sid>100010</if_sid>
         <field name="logid">013602$</field>
@@ -10293,7 +10293,7 @@
         <group>fortios.event.webfilter,fortios.category.cookiefilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101296" level="4">
+    <rule id="101296" level="6">
         <!-- LOG_ID_WEB_WF_COMMAND_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013603$</field>
@@ -10301,7 +10301,7 @@
         <group>fortios.event.webfilter,fortios.category.webfilter_command_block,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101297" level="4">
+    <rule id="101297" level="6">
         <!-- LOG_ID_CONTENT_TYPE_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013616$</field>
@@ -10309,7 +10309,7 @@
         <group>fortios.event.webfilter,fortios.category.content,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101298" level="4">
+    <rule id="101298" level="2">
         <!-- LOGID_HTTP_HDR_CHG_REQ -->
         <if_sid>100010</if_sid>
         <field name="logid">013632$</field>
@@ -10317,7 +10317,7 @@
         <group>fortios.event.webfilter,fortios.category.http_header_change,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101299" level="4">
+    <rule id="101299" level="2">
         <!-- LOGID_HTTP_HDR_CHG_RESP -->
         <if_sid>100010</if_sid>
         <field name="logid">013633$</field>
@@ -10325,7 +10325,7 @@
         <group>fortios.event.webfilter,fortios.category.http_header_change,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101300" level="4">
+    <rule id="101300" level="13">
         <!-- LOG_ID_WEB_WF_ANTIPHISH_MATCH_URL_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013648$</field>
@@ -10333,7 +10333,7 @@
         <group>fortios.event.webfilter,fortios.category.antiphishing,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101301" level="4">
+    <rule id="101301" level="13">
         <!-- LOG_ID_WEB_WF_ANTIPHISH_MATCH_FTGD_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013649$</field>
@@ -10341,7 +10341,7 @@
         <group>fortios.event.webfilter,fortios.category.antiphishing,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101302" level="4">
+    <rule id="101302" level="9">
         <!-- LOG_ID_WEB_WF_ANTIPHISH_MATCH_DEFAULT_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013650$</field>
@@ -10349,7 +10349,8 @@
         <group>fortios.event.webfilter,fortios.category.antiphishing,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101303" level="4">
+    <rule id="101303" level="6">
+    <!-- Could be rule 6 or 14 since it matches FortiGate filter rule. 6 for now since it was blocked -->
         <!-- LOG_ID_WEB_WF_ANTIPHISH_MATCH_URL_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013651$</field>
@@ -10357,7 +10358,8 @@
         <group>fortios.event.webfilter,fortios.category.antiphishing,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101304" level="4">
+    <rule id="101304" level="6">
+     <!-- Could be rule 6 or 14 since it matches FortiGate filter rule. 6 for now since it was blocked -->
         <!-- LOG_ID_WEB_WF_ANTIPHISH_MATCH_FTGD_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013652$</field>
@@ -10365,7 +10367,7 @@
         <group>fortios.event.webfilter,fortios.category.antiphishing,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101305" level="4">
+    <rule id="101305" level="6">
         <!-- LOG_ID_WEB_WF_ANTIPHISH_MATCH_DEFAULT_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013653$</field>
@@ -10373,7 +10375,7 @@
         <group>fortios.event.webfilter,fortios.category.antiphishing,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101306" level="4">
+    <rule id="101306" level="5">
         <!-- LOG_ID_VIDEOFILTER_CATEGORY_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013664$</field>
@@ -10381,7 +10383,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-category,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101307" level="4">
+    <rule id="101307" level="2">
         <!-- LOG_ID_VIDEOFILTER_CATEGORY_MONITOR -->
         <if_sid>100010</if_sid>
         <field name="logid">013665$</field>
@@ -10389,7 +10391,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-category,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101308" level="4">
+    <rule id="101308" level="3">
         <!-- LOG_ID_VIDEOFILTER_CATEGORY_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013666$</field>
@@ -10397,7 +10399,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-category,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101309" level="4">
+    <rule id="101309" level="5">
         <!-- LOG_ID_VIDEOFILTER_CHANNEL_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013680$</field>
@@ -10405,7 +10407,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-channel,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101310" level="4">
+    <rule id="101310" level="2">
         <!-- LOG_ID_VIDEOFILTER_CHANNEL_MONITOR -->
         <if_sid>100010</if_sid>
         <field name="logid">013681$</field>
@@ -10413,7 +10415,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-channel,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101311" level="4">
+    <rule id="101311" level="3">
         <!-- LOG_ID_VIDEOFILTER_CHANNEL_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013682$</field>
@@ -10421,7 +10423,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-channel,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101312" level="4">
+    <rule id="101312" level="6">
         <!-- LOG_ID_UNKNOWN_CE_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013696$</field>
@@ -10429,7 +10431,7 @@
         <group>fortios.event.webfilter,fortios.category.unknown-ce,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101313" level="4">
+    <rule id="101313" level="9">
         <!-- LOG_ID_UNKNOWN_CE_BYPASS -->
         <if_sid>100010</if_sid>
         <field name="logid">013697$</field>
@@ -10437,7 +10439,7 @@
         <group>fortios.event.webfilter,fortios.category.unknown-ce,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101314" level="4">
+    <rule id="101314" level="12">
         <!-- LOG_ID_ENTER_EXTREME_LOW_MEM_MODE -->
         <if_sid>100010</if_sid>
         <field name="logid">022022$</field>
@@ -10445,7 +10447,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101315" level="4">
+    <rule id="101315" level="12">
         <!-- LOG_ID_LEAVE_EXTREME_LOW_MEM_MODE -->
         <if_sid>100010</if_sid>
         <field name="logid">022023$</field>
@@ -10453,7 +10455,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101316" level="4">
+    <rule id="101316" level="5">
         <!-- LOG_ID_CASB_ACCESS_BLOCKED -->
         <if_sid>100010</if_sid>
         <field name="logid">010000$</field>
@@ -10461,7 +10463,7 @@
         <group>fortios.event.casb,fortios.category.casb,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101317" level="4">
+    <rule id="101317" level="8">
         <!-- LOG_ID_CASB_ACCESS_BYPASS -->
         <if_sid>100010</if_sid>
         <field name="logid">010001$</field>
@@ -10469,7 +10471,7 @@
         <group>fortios.event.casb,fortios.category.casb,fortios.severity.information</group>
     </rule>
 
-    <rule id="101318" level="4">
+    <rule id="101318" level="2">
         <!-- LOG_ID_CASB_ACCESS_MONITOR -->
         <if_sid>100010</if_sid>
         <field name="logid">010002$</field>
@@ -10525,7 +10527,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101325" level="4">
+    <rule id="101325" level="2">
         <!-- LOG_ID_DEV_VUNL_FTGD_LOOKUP -->
         <if_sid>100010</if_sid>
         <field name="logid">020150$</field>
@@ -10533,7 +10535,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101326" level="4">
+    <rule id="101326" level="12">
         <!-- LOG_ID_SCANUNIT_DLP_SIGNATURE_REMOVE -->
         <if_sid>100010</if_sid>
         <field name="logid">022817$</field>
@@ -10541,7 +10543,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101327" level="4">
+    <rule id="101327" level="3">
         <!-- LOG_ID_FLTUND_NEW_CONN -->
         <if_sid>100010</if_sid>
         <field name="logid">022874$</field>
@@ -10549,7 +10551,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101328" level="4">
+    <rule id="101328" level="12">
         <!-- LOG_ID_FLTUND_CONN_DOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">022875$</field>
@@ -10557,7 +10559,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101329" level="4">
+    <rule id="101329" level="2">
         <!-- LOG_ID_FLTUND_RCV_BOOTSTRAP -->
         <if_sid>100010</if_sid>
         <field name="logid">022876$</field>
@@ -10565,7 +10567,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.information</group>
     </rule>
 
-    <rule id="101330" level="4">
+    <rule id="101330" level="3">
         <!-- LOG_ID_FLTUND_CONN_ONLINE -->
         <if_sid>100010</if_sid>
         <field name="logid">022877$</field>
@@ -10573,7 +10575,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101331" level="4">
+    <rule id="101331" level="12">
         <!-- LOG_ID_FLTUND_CONN_OFFLINE -->
         <if_sid>100010</if_sid>
         <field name="logid">022878$</field>
@@ -10581,7 +10583,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101332" level="4">
+    <rule id="101332" level="2">
         <!-- LOG_ID_EVENT_VWL_APP_PERF_METRICS -->
         <if_sid>100010</if_sid>
         <field name="logid">022937$</field>
@@ -10589,7 +10591,7 @@
         <group>fortios.event.event,fortios.category.sdwan,fortios.severity.information</group>
     </rule>
 
-    <rule id="101333" level="4">
+    <rule id="101333" level="2">
         <!-- LOG_ID_EVENT_VWL_WAN_SPEEDTEST_RESULT -->
         <if_sid>100010</if_sid>
         <field name="logid">022938$</field>
@@ -10613,7 +10615,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101336" level="4">
+    <rule id="101336" level="3">
         <!-- LOG_ID_CC_KAT_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">032055$</field>
@@ -10621,7 +10623,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101337" level="4">
+    <rule id="101337" level="6">
         <!-- LOG_ID_NP6XLITE_HPE_PACKET_DROP -->
         <if_sid>100010</if_sid>
         <field name="logid">034420$</field>
@@ -10629,7 +10631,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101338" level="4">
+    <rule id="101338" level="13">
         <!-- LOG_ID_NP6XLITE_HPE_PACKET_FLOOD -->
         <if_sid>100010</if_sid>
         <field name="logid">034421$</field>
@@ -10637,7 +10639,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101339" level="4">
+    <rule id="101339" level="2">
         <!-- LOG_ID_PCP_MAPPING_CREATE -->
         <if_sid>100010</if_sid>
         <field name="logid">035051$</field>
@@ -10645,7 +10647,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101340" level="4">
+    <rule id="101340" level="2">
         <!-- LOG_ID_PCP_MAPPING_DELETE -->
         <if_sid>100010</if_sid>
         <field name="logid">035052$</field>
@@ -10653,7 +10655,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101341" level="4">
+    <rule id="101341" level="2">
         <!-- LOG_ID_PCP_MAPPING_RENEW -->
         <if_sid>100010</if_sid>
         <field name="logid">035053$</field>
@@ -10661,7 +10663,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101342" level="4">
+    <rule id="101342" level="2">
         <!-- LOGID_EVENT_ICAP_REMOTE_SRV_STAT -->
         <if_sid>100010</if_sid>
         <field name="logid">040961$</field>
@@ -10669,7 +10671,7 @@
         <group>fortios.event.event,fortios.category.webproxy,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101343" level="4">
+    <rule id="101343" level="3">
         <!-- LOG_ID_EC_REG_SUCCEED -->
         <if_sid>100010</if_sid>
         <field name="logid">045101$</field>
@@ -10693,7 +10695,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101346" level="4">
+    <rule id="101346" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_SIM_SWITCH -->
         <if_sid>100010</if_sid>
         <field name="logid">046518$</field>
@@ -10701,7 +10703,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101347" level="4">
+    <rule id="101347" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_SIM_SWITCH_CONNECTION_STATE -->
         <if_sid>100010</if_sid>
         <field name="logid">046519$</field>
@@ -10725,7 +10727,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101350" level="4">
+    <rule id="101350" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_BILLING_DATA_ALERT -->
         <if_sid>100010</if_sid>
         <field name="logid">046522$</field>
@@ -10733,7 +10735,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101351" level="4">
+    <rule id="101351" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_BILLING_TIME_REFRESH -->
         <if_sid>100010</if_sid>
         <field name="logid">046523$</field>
@@ -10741,7 +10743,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101352" level="4">
+    <rule id="101352" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_SIM_SWITCH_DATA_PLAN -->
         <if_sid>100010</if_sid>
         <field name="logid">046524$</field>
@@ -10749,7 +10751,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101353" level="4">
+    <rule id="101353" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_BILLING_STOP_NETWORK -->
         <if_sid>100010</if_sid>
         <field name="logid">046525$</field>
@@ -10757,7 +10759,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101354" level="4">
+    <rule id="101354" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_BILLING_DATA_PLAN_OVER -->
         <if_sid>100010</if_sid>
         <field name="logid">046526$</field>
@@ -10765,7 +10767,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101355" level="4">
+    <rule id="101355" level="2">
         <!-- LOG_ID_FORTICONVERTER_RESULT_READY -->
         <if_sid>100010</if_sid>
         <field name="logid">053320$</field>
@@ -10773,7 +10775,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101356" level="4">
+    <rule id="101356" level="2">
         <!-- LOG_ID_FORTICONVERTER_CONFIG_UPLOADED -->
         <if_sid>100010</if_sid>
         <field name="logid">053321$</field>
@@ -10781,7 +10783,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101357" level="4">
+    <rule id="101357" level="12">
         <!-- LOG_ID_SSL_ANOMALY_HANDSHAKE_FAILURE -->
         <if_sid>100010</if_sid>
         <field name="logid">062308$</field>
@@ -10789,7 +10791,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.information</group>
     </rule>
 
-    <rule id="101358" level="4">
+    <rule id="101358" level="12">
         <!-- LOG_ID_SSL_ANOMALY_CERT_INVALID -->
         <if_sid>100010</if_sid>
         <field name="logid">062309$</field>
@@ -10797,7 +10799,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101359" level="4">
+    <rule id="101359" level="12">
         <!-- LOG_ID_OT_VPATCH_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">064600$</field>
@@ -10805,7 +10807,7 @@
         <group>fortios.event.virtual-patch,fortios.category.ot-vpatch,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101360" level="4">
+    <rule id="101360" level="2">
         <!-- LOG_ID_OT_VPATCH_LOG -->
         <if_sid>100010</if_sid>
         <field name="logid">064601$</field>
@@ -10813,7 +10815,7 @@
         <group>fortios.event.virtual-patch,fortios.category.ot-vpatch,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101361" level="4">
+    <rule id="101361" level="13">
         <!-- LOG_ID_LOCALIN_VPATCH_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">064610$</field>
@@ -10821,7 +10823,7 @@
         <group>fortios.event.virtual-patch,fortios.category.localin-vpatch,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101362" level="4">
+    <rule id="101362" level="2">
         <!-- LOG_ID_LOCALIN_VPATCH_LOG -->
         <if_sid>100010</if_sid>
         <field name="logid">064611$</field>
@@ -10837,7 +10839,7 @@
         <group>fortios.event.virus,fortios.category.scanerror,fortios.severity.error</group>
     </rule>
 
-    <rule id="101364" level="4">
+    <rule id="101364" level="2">
         <!-- LOG_ID_CONTENT_TYPE_EXEMPT -->
         <if_sid>100010</if_sid>
         <field name="logid">013617$</field>
@@ -10845,7 +10847,7 @@
         <group>fortios.event.webfilter,fortios.category.content,fortios.severity.information</group>
     </rule>
 
-    <rule id="101365" level="4">
+    <rule id="101365" level="5">
         <!-- LOG_ID_VIDEOFILTER_TITLE_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013712$</field>
@@ -10853,7 +10855,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-title,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101366" level="4">
+    <rule id="101366" level="2">
         <!-- LOG_ID_VIDEOFILTER_TITLE_MONITOR -->
         <if_sid>100010</if_sid>
         <field name="logid">013713$</field>
@@ -10861,7 +10863,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-title,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101367" level="4">
+    <rule id="101367" level="3">
         <!-- LOG_ID_VIDEOFILTER_TITLE_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013714$</field>
@@ -10869,7 +10871,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-title,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101368" level="4">
+    <rule id="101368" level="5">
         <!-- LOG_ID_VIDEOFILTER_DESCRIPTION_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">013728$</field>
@@ -10877,7 +10879,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-description,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101369" level="4">
+    <rule id="101369" level="2">
         <!-- LOG_ID_VIDEOFILTER_DESCRIPTION_MONITOR -->
         <if_sid>100010</if_sid>
         <field name="logid">013729$</field>
@@ -10885,7 +10887,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-description,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101370" level="4">
+    <rule id="101370" level="3">
         <!-- LOG_ID_VIDEOFILTER_DESCRIPTION_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">013730$</field>
@@ -10893,7 +10895,7 @@
         <group>fortios.event.webfilter,fortios.category.videofilter-description,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101371" level="4">
+    <rule id="101371" level="12">
         <!-- LOG_ID_RAD_FAIL_IPV6_SOCKET -->
         <if_sid>100010</if_sid>
         <field name="logid">020047$</field>
@@ -10901,7 +10903,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101372" level="4">
+    <rule id="101372" level="12">
         <!-- LOG_ID_RAD_FAIL_OPT_IPV6_PKTINFO -->
         <if_sid>100010</if_sid>
         <field name="logid">020048$</field>
@@ -10909,7 +10911,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101373" level="4">
+    <rule id="101373" level="12">
         <!-- LOG_ID_RAD_FAIL_OPT_IPV6_CHECKSUM -->
         <if_sid>100010</if_sid>
         <field name="logid">020049$</field>
@@ -10917,7 +10919,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101374" level="4">
+    <rule id="101374" level="12">
         <!-- LOG_ID_RAD_FAIL_OPT_IPV6_UNICAST_HOPS -->
         <if_sid>100010</if_sid>
         <field name="logid">020050$</field>
@@ -10925,7 +10927,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101375" level="4">
+    <rule id="101375" level="12">
         <!-- LOG_ID_RAD_FAIL_OPT_IPV6_MULTICAST_HOPS -->
         <if_sid>100010</if_sid>
         <field name="logid">020051$</field>
@@ -10933,7 +10935,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101376" level="4">
+    <rule id="101376" level="12">
         <!-- LOG_ID_RAD_FAIL_OPT_IPV6_HOPLIMIT -->
         <if_sid>100010</if_sid>
         <field name="logid">020052$</field>
@@ -10941,7 +10943,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101377" level="4">
+    <rule id="101377" level="12">
         <!-- LOG_ID_RAD_FAIL_OPT_IPPROTO_ICMPV6 -->
         <if_sid>100010</if_sid>
         <field name="logid">020053$</field>
@@ -10949,7 +10951,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101378" level="4">
+    <rule id="101378" level="2">
         <!-- LOG_ID_RAD_EXIT_BY_SIGNAL -->
         <if_sid>100010</if_sid>
         <field name="logid">020054$</field>
@@ -10957,7 +10959,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101379" level="4">
+    <rule id="101379" level="12">
         <!-- LOG_ID_RAD_FAIL_CMDB_QUERY -->
         <if_sid>100010</if_sid>
         <field name="logid">020055$</field>
@@ -10965,7 +10967,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101380" level="4">
+    <rule id="101380" level="12">
         <!-- LOG_ID_RAD_FAIL_CMDB_FOR_EACH -->
         <if_sid>100010</if_sid>
         <field name="logid">020056$</field>
@@ -10973,7 +10975,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101381" level="4">
+    <rule id="101381" level="12">
         <!-- LOG_ID_RAD_FAIL_FIND_VIRT_INTF -->
         <if_sid>100010</if_sid>
         <field name="logid">020057$</field>
@@ -10981,7 +10983,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101382" level="4">
+    <rule id="101382" level="2">
         <!-- LOG_ID_RAD_UNLOAD_INTF -->
         <if_sid>100010</if_sid>
         <field name="logid">020058$</field>
@@ -10989,7 +10991,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101383" level="4">
+    <rule id="101383" level="7">
         <!-- LOG_ID_FDS_SRV_CHG -->
         <if_sid>100010</if_sid>
         <field name="logid">022914$</field>
@@ -10997,7 +10999,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101384" level="4">
+    <rule id="101384" level="13">
         <!-- LOG_ID_ADMIN_MTNER_LOGIN_SUCC -->
         <if_sid>100010</if_sid>
         <field name="logid">032053$</field>
@@ -11005,7 +11007,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101385" level="4">
+    <rule id="101385" level="13">
         <!-- LOG_ID_ADMIN_MTNER_LOGOUT -->
         <if_sid>100010</if_sid>
         <field name="logid">032054$</field>
@@ -11013,7 +11015,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101386" level="4">
+    <rule id="101386" level="14">
         <!-- LOG_ID_RESTORE_IMG_USB -->
         <if_sid>100010</if_sid>
         <field name="logid">032199$</field>
@@ -11021,7 +11023,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101387" level="4">
+    <rule id="101387" level="14">
         <!-- LOG_ID_RESTORE_CONF_BY_USB -->
         <if_sid>100010</if_sid>
         <field name="logid">032567$</field>
@@ -11029,7 +11031,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101388" level="4">
+    <rule id="101388" level="13">
         <!-- LOG_ID_ADMIN_MTNER_LOGOUT_DISCONNECT -->
         <if_sid>100010</if_sid>
         <field name="logid">032570$</field>
@@ -11037,7 +11039,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101389" level="4">
+    <rule id="101389" level="13">
         <!-- LOGID_EVENT_CONFIG_OBJATTR_MTNER -->
         <if_sid>100010</if_sid>
         <field name="logid">044549$</field>
@@ -11045,7 +11047,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101390" level="4">
+    <rule id="101390" level="13">
         <!-- LOGID_EVENT_CONFIG_OBJ_MTNER -->
         <if_sid>100010</if_sid>
         <field name="logid">044550$</field>
@@ -11053,7 +11055,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101391" level="4">
+    <rule id="101391" level="13">
         <!-- LOGID_EVENT_CONFIG_ATTR_MTNER -->
         <if_sid>100010</if_sid>
         <field name="logid">044551$</field>
@@ -11061,7 +11063,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101392" level="4">
+    <rule id="101392" level="13">
         <!-- LOGID_EVENT_CONFIG_PATH_MTNER -->
         <if_sid>100010</if_sid>
         <field name="logid">044552$</field>
@@ -11069,7 +11071,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101393" level="4">
+    <rule id="101393" level="6">
         <!-- MESGID_FORTIAI_FAILURE_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">08983$</field>
@@ -11077,7 +11079,7 @@
         <group>fortios.event.virus,fortios.category.scanerror,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101394" level="4">
+    <rule id="101394" level="5">
         <!-- MESGID_FORTIAI_FAILURE_NOTIF -->
         <if_sid>100010</if_sid>
         <field name="logid">08984$</field>
@@ -11085,7 +11087,7 @@
         <group>fortios.event.virus,fortios.category.scanerror,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101395" level="4">
+    <rule id="101395" level="6">
         <!-- MESGID_FORTIAI_TIMEOUT_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">08985$</field>
@@ -11093,7 +11095,7 @@
         <group>fortios.event.virus,fortios.category.scanerror,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101396" level="4">
+    <rule id="101396" level="5">
         <!-- MESGID_FORTIAI_TIMEOUT_NOTIF -->
         <if_sid>100010</if_sid>
         <field name="logid">08986$</field>

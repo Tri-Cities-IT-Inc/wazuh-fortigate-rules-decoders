@@ -37,6 +37,7 @@
         <group>fortios.event.anomaly,fortios.category.anomaly,fortios.severity.alert</group>
     </rule>
 
+    <!--May need to edit level for all Application Control Rules-->
     <rule id="100014" level="3">
         <!-- LOGID_APP_CTRL_IM_BASIC -->
         <if_sid>100010</if_sid>
@@ -102,7 +103,8 @@
         <group>fortios.event.app-ctrl,fortios.category.signature,fortios.severity.information</group>
     </rule>
 
-    <rule id="100022" level="3">
+    <!--May need to edit level-->
+    <rule id="100022" level="4">
         <!-- LOGID_APP_CTRL_IPS_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">028705$</field>
@@ -110,7 +112,8 @@
         <group>fortios.event.app-ctrl,fortios.category.signature,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100023" level="3">
+    <!--May need to edit level-->
+    <rule id="100023" level="4">
         <!-- LOGID_APP_CTRL_IPS_RESET -->
         <if_sid>100010</if_sid>
         <field name="logid">028706$</field>
@@ -126,7 +129,8 @@
         <group>fortios.event.app-ctrl,fortios.category.signature,fortios.severity.information</group>
     </rule>
 
-    <rule id="100025" level="3">
+    <!--May need to edit level-->
+    <rule id="100025" level="4">
         <!-- LOGID_APP_CTRL_SSH_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">028721$</field>
@@ -134,7 +138,8 @@
         <group>fortios.event.app-ctrl,fortios.category.signature,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100026" level="3">
+    <!--May need to edit level-->
+    <rule id="100026" level="4">
         <!-- LOGID_APP_CTRL_PORT_ENF -->
         <if_sid>100010</if_sid>
         <field name="logid">028736$</field>
@@ -142,7 +147,8 @@
         <group>fortios.event.app-ctrl,fortios.category.port-violation,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100027" level="3">
+    <!--May need to edit level-->
+    <rule id="100027" level="4">
         <!-- LOGID_APP_CTRL_PROTO_ENF -->
         <if_sid>100010</if_sid>
         <field name="logid">028737$</field>
@@ -150,6 +156,7 @@
         <group>fortios.event.app-ctrl,fortios.category.protocol-violation,fortios.severity.warning</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100028" level="12">
         <!-- LOG_ID_DLP_WARN -->
         <if_sid>100010</if_sid>
@@ -158,6 +165,7 @@
         <group>fortios.event.dlp,fortios.category.dlp,fortios.severity.warning</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100029" level="12">
         <!-- LOG_ID_DLP_NOTIF -->
         <if_sid>100010</if_sid>
@@ -166,6 +174,7 @@
         <group>fortios.event.dlp,fortios.category.dlp,fortios.severity.notice</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100030" level="12">
         <!-- LOG_ID_DLP_DOC_SOURCE -->
         <if_sid>100010</if_sid>
@@ -174,6 +183,7 @@
         <group>fortios.event.dlp,fortios.category.dlp-docsource,fortios.severity.notice</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100031" level="9">
         <!-- LOG_ID_DLP_DOC_SOURCE_ERROR -->
         <if_sid>100010</if_sid>
@@ -182,7 +192,7 @@
         <group>fortios.event.dlp,fortios.category.dlp-docsource,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100032" level="3">
+    <rule id="100032" level="2">
         <!-- LOG_ID_DNS_QUERY -->
         <if_sid>100010</if_sid>
         <field name="logid">054000$</field>
@@ -190,7 +200,8 @@
         <group>fortios.event.dns,fortios.category.dns-query,fortios.severity.information</group>
     </rule>
 
-    <rule id="100033" level="4">
+    <!--May need to edit level-->
+    <rule id="100033" level="7">
         <!-- LOG_ID_DNS_RESOLV_ERROR -->
         <if_sid>100010</if_sid>
         <field name="logid">054200$</field>
@@ -198,6 +209,7 @@
         <group>fortios.event.dns,fortios.category.dns-response,fortios.severity.error</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100034" level="5">
         <!-- LOG_ID_DNS_URL_FILTER_BLOCK -->
         <if_sid>100010</if_sid>
@@ -214,6 +226,7 @@
         <group>fortios.event.dns,fortios.category.dns-response,fortios.severity.information</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100036" level="12">
         <!-- LOG_ID_DNS_BOTNET_IP -->
         <if_sid>100010</if_sid>
@@ -222,6 +235,7 @@
         <group>fortios.event.dns,fortios.category.dns-response,fortios.severity.warning</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100037" level="12">
         <!-- LOG_ID_DNS_BOTNET_DOMAIN -->
         <if_sid>100010</if_sid>
@@ -230,7 +244,8 @@
         <group>fortios.event.dns,fortios.category.dns-response,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100038" level="9">
+    <!--May need to edit level-->
+    <rule id="100038" level="4">
         <!-- LOG_ID_DNS_FTGD_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">054800$</field>
@@ -238,7 +253,8 @@
         <group>fortios.event.dns,fortios.category.dns-response,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100039" level="9">
+    <!--May need to edit level-->
+    <rule id="100039" level="7">
         <!-- LOG_ID_DNS_FTGD_ERROR -->
         <if_sid>100010</if_sid>
         <field name="logid">054801$</field>
@@ -254,6 +270,7 @@
         <group>fortios.event.dns,fortios.category.dns-response,fortios.severity.notice</group>
     </rule>
 
+    <!--May need to edit level-->
     <rule id="100041" level="5">
         <!-- LOG_ID_DNS_FTGD_CAT_BLOCK -->
         <if_sid>100010</if_sid>
@@ -270,7 +287,7 @@
         <group>fortios.event.dns,fortios.category.dns-response,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100043" level="3">
+    <rule id="100043" level="2">
         <!-- LOG_ID_DNS_LOCAL -->
         <if_sid>100010</if_sid>
         <field name="logid">054805$</field>
@@ -294,7 +311,8 @@
         <group>fortios.event.emailfilter,fortios.category.email,fortios.severity.information</group>
     </rule>
 
-    <rule id="100046" level="5">
+    <!--May need to edit level-->
+    <rule id="100046" level="2">
         <!-- LOGID_ANTISPAM_EMAIL_BWORD_NOTIF -->
         <if_sid>100010</if_sid>
         <field name="logid">020482$</field>
@@ -302,7 +320,8 @@
         <group>fortios.event.emailfilter,fortios.category.bannedword,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100047" level="9">
+    <!--May need to edit level-->
+    <rule id="100047" level="2">
         <!-- LOGID_ANTISPAM_FTGD_ERR -->
         <if_sid>100010</if_sid>
         <field name="logid">020509$</field>

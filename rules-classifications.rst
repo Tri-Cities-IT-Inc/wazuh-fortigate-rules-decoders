@@ -25,7 +25,7 @@ represent less severe events or informational messages.
 +-------+----------------------------------+--------------------------------------------------------------------------------------------------------------------+
 
 
-Rules classification
+Wazuh Rules classification
 ====================
 
 Rules are categorized into multiple levels, ranging from the lowest (0) to the maximum (16). The table below outlines each level, 

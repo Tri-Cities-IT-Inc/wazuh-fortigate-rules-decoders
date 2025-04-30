@@ -10069,7 +10069,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101268" level="4">
+    <rule id="101268" level="12">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_SNI_BLK -->
         <if_sid>100010</if_sid>
         <field name="logid">012551$</field>
@@ -10077,7 +10077,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101269" level="4">
+    <rule id="101269" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_HOSTNAME_SNI_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">012552$</field>
@@ -10085,7 +10085,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.information</group>
     </rule>
 
-    <rule id="101270" level="4">
+    <rule id="101270" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_CERT -->
         <if_sid>100010</if_sid>
         <field name="logid">012553$</field>
@@ -10093,7 +10093,7 @@
         <group>fortios.event.webfilter,fortios.category.urlfilter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101271" level="4">
+    <rule id="101271" level="9">
         <!-- LOG_ID_URL_FILTER_INVALID_SESSION -->
         <if_sid>100010</if_sid>
         <field name="logid">012554$</field>

@@ -10607,7 +10607,7 @@
         <group>fortios.event.event,fortios.category.sdwan,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101335" level="2">
+    <rule id="101335" level="4">
         <!-- LOG_ID_EVENT_LINK_MONITOR_FAIL_DETECT -->
         <if_sid>100010</if_sid>
         <field name="logid">022940$</field>
@@ -10711,7 +10711,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101348" level="6">
+    <rule id="101348" level="4">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_SIM_SWITCH_LINK_MONITOR -->
         <if_sid>100010</if_sid>
         <field name="logid">046520$</field>
@@ -10719,7 +10719,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101349" level="6">
+    <rule id="101349" level="4">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_SIM_FLIP -->
         <if_sid>100010</if_sid>
         <field name="logid">046521$</field>

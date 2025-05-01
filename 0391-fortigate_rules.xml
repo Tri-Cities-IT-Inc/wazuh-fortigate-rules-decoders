@@ -8949,7 +8949,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101128" level="4">
+    <rule id="101128" level="7">
         <!-- LOG_ID_SSL_ANOMALY_CERT_RESIGN_UNTRUSTED -->
         <if_sid>100010</if_sid>
         <field name="logid">062302$</field>
@@ -8957,7 +8957,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101129" level="4">
+    <rule id="101129" level="9">
         <!-- LOG_ID_SSL_ANOMALY_CERT_BLOCKED -->
         <if_sid>100010</if_sid>
         <field name="logid">062303$</field>
@@ -8965,7 +8965,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101130" level="4">
+    <rule id="101130" level="9">
         <!-- LOG_ID_SSL_ANOMALY_CERT_SNI_MISMATCHED -->
         <if_sid>100010</if_sid>
         <field name="logid">062304$</field>
@@ -8973,7 +8973,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101131" level="4">
+    <rule id="101131" level="9">
         <!-- LOG_ID_SSL_ANOMALY_CERT_PROBE_FAILURE_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">062305$</field>
@@ -8981,7 +8981,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101132" level="4">
+    <rule id="101132" level="9">
         <!-- LOG_ID_SSL_ANOMALY_CERT_PROBE_FAILURE_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">062306$</field>
@@ -8989,7 +8989,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101133" level="4">
+    <rule id="101133" level="9">
         <!-- LOG_ID_SSL_ANOMALY_CERT_SNI_MISMATCHED_INFO -->
         <if_sid>100010</if_sid>
         <field name="logid">062307$</field>
@@ -8997,7 +8997,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.information</group>
     </rule>
 
-    <rule id="101134" level="4">
+    <rule id="101134" level="3">
         <!-- LOG_ID_TRAFFIC_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">000002$</field>
@@ -9005,7 +9005,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101135" level="4">
+    <rule id="101135" level="5">
         <!-- LOG_ID_TRAFFIC_DENY -->
         <if_sid>100010</if_sid>
         <field name="logid">000003$</field>
@@ -9013,7 +9013,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101136" level="4">
+    <rule id="101136" level="2">
         <!-- LOG_ID_TRAFFIC_OTHER_START -->
         <if_sid>100010</if_sid>
         <field name="logid">000004$</field>
@@ -9021,7 +9021,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101137" level="4">
+    <rule id="101137" level="2">
         <!-- LOG_ID_TRAFFIC_OTHER_ICMP_ALLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">000005$</field>
@@ -9029,7 +9029,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101138" level="4">
+    <rule id="101138" level="5">
         <!-- LOG_ID_TRAFFIC_OTHER_ICMP_DENY -->
         <if_sid>100010</if_sid>
         <field name="logid">000006$</field>
@@ -9037,7 +9037,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101139" level="4">
+    <rule id="101139" level="6">
         <!-- LOG_ID_TRAFFIC_OTHER_INVALID -->
         <if_sid>100010</if_sid>
         <field name="logid">000007$</field>
@@ -9045,7 +9045,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101140" level="4">
+    <rule id="101140" level="2">
         <!-- LOG_ID_TRAFFIC_WANOPT -->
         <if_sid>100010</if_sid>
         <field name="logid">000008$</field>
@@ -9053,7 +9053,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101141" level="4">
+    <rule id="101141" level="2">
         <!-- LOG_ID_TRAFFIC_WEBCACHE -->
         <if_sid>100010</if_sid>
         <field name="logid">000009$</field>
@@ -9061,7 +9061,7 @@
         <group>fortios.event.traffic,fortios.category.forward,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101142" level="4">
+    <rule id="101142" level="2">
         <!-- LOG_ID_TRAFFIC_EXPLICIT_PROXY -->
         <if_sid>100010</if_sid>
         <field name="logid">000010$</field>

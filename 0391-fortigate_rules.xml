@@ -10479,7 +10479,7 @@
         <group>fortios.event.casb,fortios.category.casb,fortios.severity.information</group>
     </rule>
 
-    <rule id="101319" level="4">
+    <rule id="101319" level="12">
         <!-- LOG_ID_DLP_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020136$</field>
@@ -10487,7 +10487,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101320" level="4">
+    <rule id="101320" level="12">
         <!-- LOG_ID_FGSA_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020137$</field>
@@ -10495,7 +10495,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101321" level="4">
+    <rule id="101321" level="12">
         <!-- LOG_ID_SWOS_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020138$</field>
@@ -10503,7 +10503,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101322" level="4">
+    <rule id="101322" level="12">
         <!-- LOG_ID_FGCS_ACC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020139$</field>
@@ -10511,7 +10511,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101323" level="4">
+    <rule id="101323" level="12">
         <!-- LOG_ID_FSPA_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020140$</field>
@@ -10519,7 +10519,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101324" level="4">
+    <rule id="101324" level="12">
         <!-- LOG_ID_FSFG_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020141$</field>
@@ -10551,7 +10551,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101328" level="12">
+    <rule id="101328" level="4">
         <!-- LOG_ID_FLTUND_CONN_DOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">022875$</field>
@@ -10575,7 +10575,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101331" level="12">
+    <rule id="101331" level="14">
         <!-- LOG_ID_FLTUND_CONN_OFFLINE -->
         <if_sid>100010</if_sid>
         <field name="logid">022878$</field>
@@ -10783,7 +10783,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101357" level="12">
+    <rule id="101357" level="4">
         <!-- LOG_ID_SSL_ANOMALY_HANDSHAKE_FAILURE -->
         <if_sid>100010</if_sid>
         <field name="logid">062308$</field>
@@ -10831,7 +10831,7 @@
         <group>fortios.event.virtual-patch,fortios.category.localin-vpatch,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101363" level="4">
+    <rule id="101363" level="12">
         <!-- MESGID_SCAN_AV_MAX_MEMORY_REACHED_ERROR -->
         <if_sid>100010</if_sid>
         <field name="logid">08982$</field>
@@ -10991,7 +10991,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101383" level="7">
+    <rule id="101383" level="8">
         <!-- LOG_ID_FDS_SRV_CHG -->
         <if_sid>100010</if_sid>
         <field name="logid">022914$</field>

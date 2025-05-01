@@ -4638,7 +4638,7 @@
         <group>fortios.event.event,fortios.category.ha,fortios.severity.error</group>
     </rule>
     
-    <rule id="100589" level="12">
+    <rule id="100589" level="7">
         <!-- LOG_ID_CONF_SYNC_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">035012$</field>
@@ -4646,7 +4646,7 @@
         <group>fortios.event.event,fortios.category.ha,fortios.severity.error</group>
     </rule>
 
-    <rule id="100590" level="7">
+    <rule id="100590" level="12">
         <!-- LOG_ID_HA_FAILOVER_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">035013$</field>

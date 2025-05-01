@@ -10551,7 +10551,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101328" level="4">
+    <rule id="101328" level="12">
         <!-- LOG_ID_FLTUND_CONN_DOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">022875$</field>
@@ -10575,7 +10575,7 @@
         <group>fortios.event.event,fortios.category.switch-controller,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101331" level="4">
+    <rule id="101331" level="12">
         <!-- LOG_ID_FLTUND_CONN_OFFLINE -->
         <if_sid>100010</if_sid>
         <field name="logid">022878$</field>
@@ -10783,7 +10783,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101357" level="4">
+    <rule id="101357" level="12">
         <!-- LOG_ID_SSL_ANOMALY_HANDSHAKE_FAILURE -->
         <if_sid>100010</if_sid>
         <field name="logid">062308$</field>

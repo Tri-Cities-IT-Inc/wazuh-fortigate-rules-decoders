@@ -8559,7 +8559,7 @@
         <group>fortios.event.file-filter,fortios.category.file-filter,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101079" level="4">
+    <rule id="101079" level="2">
         <!-- LOG_ID_FSW_FLOW -->
         <if_sid>100010</if_sid>
         <field name="logid">056001$</field>
@@ -8567,7 +8567,7 @@
         <group>fortios.event.forti-switch,fortios.category.fsw-flow,fortios.severity.information</group>
     </rule>
 
-    <rule id="101080" level="4">
+    <rule id="101080" level="2">
         <!-- LOGID_GTP_FORWARD -->
         <if_sid>100010</if_sid>
         <field name="logid">041216$</field>
@@ -8575,7 +8575,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101081" level="4">
+    <rule id="101081" level="2">
         <!-- LOGID_GTP_DENY -->
         <if_sid>100010</if_sid>
         <field name="logid">041217$</field>
@@ -8583,7 +8583,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101082" level="4">
+    <rule id="101082" level="2">
         <!-- LOGID_GTP_RATE_LIMIT -->
         <if_sid>100010</if_sid>
         <field name="logid">041218$</field>
@@ -8591,7 +8591,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101083" level="4">
+    <rule id="101083" level="2">
         <!-- LOGID_GTP_STATE_INVALID -->
         <if_sid>100010</if_sid>
         <field name="logid">041219$</field>
@@ -8599,7 +8599,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101084" level="4">
+    <rule id="101084" level="2">
         <!-- LOGID_GTP_TUNNEL_LIMIT -->
         <if_sid>100010</if_sid>
         <field name="logid">041220$</field>
@@ -8607,7 +8607,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101085" level="4">
+    <rule id="101085" level="2">
         <!-- LOGID_GTP_TRAFFIC_COUNT -->
         <if_sid>100010</if_sid>
         <field name="logid">041221$</field>
@@ -8615,7 +8615,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101086" level="4">
+    <rule id="101086" level="2">
         <!-- LOGID_GTP_USER_DATA -->
         <if_sid>100010</if_sid>
         <field name="logid">041222$</field>
@@ -8623,7 +8623,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101087" level="4">
+    <rule id="101087" level="2">
         <!-- LOGID_GTPV2_FORWARD -->
         <if_sid>100010</if_sid>
         <field name="logid">041223$</field>
@@ -8631,7 +8631,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101088" level="4">
+    <rule id="101088" level="2">
         <!-- LOGID_GTPV2_DENY -->
         <if_sid>100010</if_sid>
         <field name="logid">041224$</field>
@@ -8639,7 +8639,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101089" level="4">
+    <rule id="101089" level="2">
         <!-- LOGID_GTPV2_RATE_LIMIT -->
         <if_sid>100010</if_sid>
         <field name="logid">041225$</field>
@@ -8647,7 +8647,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101090" level="4">
+    <rule id="101090" level="2">
         <!-- LOGID_GTPV2_STATE_INVALID -->
         <if_sid>100010</if_sid>
         <field name="logid">041226$</field>
@@ -8655,7 +8655,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101091" level="4">
+    <rule id="101091" level="2">
         <!-- LOGID_GTPV2_TUNNEL_LIMIT -->
         <if_sid>100010</if_sid>
         <field name="logid">041227$</field>
@@ -8663,7 +8663,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101092" level="4">
+    <rule id="101092" level="2">
         <!-- LOGID_GTPV2_TRAFFIC_COUNT -->
         <if_sid>100010</if_sid>
         <field name="logid">041228$</field>
@@ -8671,7 +8671,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101093" level="4">
+    <rule id="101093" level="2">
         <!-- LOGID_GTPU_FORWARD -->
         <if_sid>100010</if_sid>
         <field name="logid">041229$</field>
@@ -8679,7 +8679,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101094" level="4">
+    <rule id="101094" level="2">
         <!-- LOGID_GTPU_DENY -->
         <if_sid>100010</if_sid>
         <field name="logid">041230$</field>
@@ -8687,7 +8687,7 @@
         <group>fortios.event.gtp,fortios.category.gtp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101095" level="4">
+    <rule id="101095" level="2">
         <!-- LOGID_PFCP_FORWARD -->
         <if_sid>100010</if_sid>
         <field name="logid">041231$</field>
@@ -8695,7 +8695,7 @@
         <group>fortios.event.gtp,fortios.category.pfcp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101096" level="4">
+    <rule id="101096" level="5">
         <!-- LOGID_PFCP_DENY -->
         <if_sid>100010</if_sid>
         <field name="logid">041232$</field>
@@ -8703,7 +8703,7 @@
         <group>fortios.event.gtp,fortios.category.pfcp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101097" level="4">
+    <rule id="101097" level="2">
         <!-- LOGID_PFCP_TRAFFIC_COUNT -->
         <if_sid>100010</if_sid>
         <field name="logid">041233$</field>
@@ -8711,7 +8711,7 @@
         <group>fortios.event.gtp,fortios.category.pfcp-all,fortios.severity.information</group>
     </rule>
 
-    <rule id="101098" level="4">
+    <rule id="101098" level="9">
         <!-- LOG_ID_ICAP_SERVER_ERROR -->
         <if_sid>100010</if_sid>
         <field name="logid">060000$</field>
@@ -8719,7 +8719,7 @@
         <group>fortios.event.icap,fortios.category.icap,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101099" level="4">
+    <rule id="101099" level="14">
         <!-- LOG_ID_ICAP_INFECTION_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">060001$</field>
@@ -8727,7 +8727,7 @@
         <group>fortios.event.icap,fortios.category.icap,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101100" level="4">
+    <rule id="101100" level="7">
         <!-- LOG_ID_ICAP_SERVER_CLOSE_CONN -->
         <if_sid>100010</if_sid>
         <field name="logid">060002$</field>
@@ -8735,7 +8735,7 @@
         <group>fortios.event.icap,fortios.category.icap,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101101" level="4">
+    <rule id="101101" level="15">
         <!-- LOGID_ATTCK_SIGNATURE_TCP_UDP -->
         <if_sid>100010</if_sid>
         <field name="logid">016384$</field>
@@ -8743,7 +8743,7 @@
         <group>fortios.event.ips,fortios.category.signature,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101102" level="4">
+    <rule id="101102" level="15">
         <!-- LOGID_ATTCK_SIGNATURE_ICMP -->
         <if_sid>100010</if_sid>
         <field name="logid">016385$</field>
@@ -8751,7 +8751,7 @@
         <group>fortios.event.ips,fortios.category.signature,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101103" level="4">
+    <rule id="101103" level="15">
         <!-- LOGID_ATTCK_SIGNATURE_OTHERS -->
         <if_sid>100010</if_sid>
         <field name="logid">016386$</field>
@@ -8759,7 +8759,7 @@
         <group>fortios.event.ips,fortios.category.signature,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101104" level="4">
+    <rule id="101104" level="14">
         <!-- LOGID_ATTACK_MALICIOUS_URL -->
         <if_sid>100010</if_sid>
         <field name="logid">016399$</field>
@@ -8767,7 +8767,7 @@
         <group>fortios.event.ips,fortios.category.malicious-url,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101105" level="4">
+    <rule id="101105" level="15">
         <!-- LOGID_ATTACK_BOTNET_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">016400$</field>
@@ -8775,7 +8775,7 @@
         <group>fortios.event.ips,fortios.category.botnet,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101106" level="4">
+    <rule id="101106" level="14">
         <!-- LOGID_ATTACK_BOTNET_NOTIF -->
         <if_sid>100010</if_sid>
         <field name="logid">016401$</field>
@@ -8783,7 +8783,7 @@
         <group>fortios.event.ips,fortios.category.botnet,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101107" level="4">
+    <rule id="101107" level="9">
         <!-- LOG_ID_SSH_COMMAND_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">061000$</field>
@@ -8791,7 +8791,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-command,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101108" level="4">
+    <rule id="101108" level="12">
         <!-- LOG_ID_SSH_COMMAND_BLOCK_ALERT -->
         <if_sid>100010</if_sid>
         <field name="logid">061001$</field>
@@ -8799,7 +8799,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-command,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101109" level="4">
+    <rule id="101109" level="13">
         <!-- LOG_ID_SSH_COMMAND_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">061002$</field>
@@ -8807,7 +8807,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-command,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101110" level="4">
+    <rule id="101110" level="14">
         <!-- LOG_ID_SSH_COMMAND_PASS_ALERT -->
         <if_sid>100010</if_sid>
         <field name="logid">061003$</field>
@@ -8815,7 +8815,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-command,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101111" level="4">
+    <rule id="101111" level="9">
         <!-- LOG_ID_SSH_CHANNEL_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">061010$</field>
@@ -8823,7 +8823,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-channel,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101112" level="4">
+    <rule id="101112" level="13">
         <!-- LOG_ID_SSH_CHANNEL_PASS -->
         <if_sid>100010</if_sid>
         <field name="logid">061011$</field>
@@ -8831,7 +8831,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-channel,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101113" level="4">
+    <rule id="101113" level="9">
         <!-- LOG_ID_SSH_HOST_KEY_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">061012$</field>
@@ -8839,7 +8839,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-hostkey,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101114" level="4">
+    <rule id="101114" level="7">
         <!-- LOG_ID_SSH_HOST_KEY_NOTIF -->
         <if_sid>100010</if_sid>
         <field name="logid">061013$</field>
@@ -8847,7 +8847,7 @@
         <group>fortios.event.ssh,fortios.category.ssh-hostkey,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101115" level="4">
+    <rule id="101115" level="2">
         <!-- LOG_ID_SSL_EXEMPT_ADDR -->
         <if_sid>100010</if_sid>
         <field name="logid">062004$</field>
@@ -8855,7 +8855,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-exempt,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101116" level="4">
+    <rule id="101116" level="2">
         <!-- LOG_ID_SSL_EXEMPT_ALLOWLIST -->
         <if_sid>100010</if_sid>
         <field name="logid">062006$</field>
@@ -8863,7 +8863,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-exempt,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101117" level="4">
+    <rule id="101117" level="2">
         <!-- LOG_ID_SSL_EXEMPT_FTGD_CATEGORY -->
         <if_sid>100010</if_sid>
         <field name="logid">062007$</field>
@@ -8871,7 +8871,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-exempt,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101118" level="4">
+    <rule id="101118" level="2">
         <!-- LOG_ID_SSL_EXEMPT_LOCAL_CATEGORY -->
         <if_sid>100010</if_sid>
         <field name="logid">062008$</field>
@@ -8879,7 +8879,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-exempt,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101119" level="4">
+    <rule id="101119" level="2">
         <!-- LOG_ID_SSL_EXEMPT_USER_CATEGORY -->
         <if_sid>100010</if_sid>
         <field name="logid">062009$</field>
@@ -8887,7 +8887,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-exempt,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101120" level="4">
+    <rule id="101120" level="2">
         <!-- LOG_ID_SSL_NEGOTIATION_INSPECT -->
         <if_sid>100010</if_sid>
         <field name="logid">062100$</field>
@@ -8895,7 +8895,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-negotiation,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101121" level="4">
+    <rule id="101121" level="9">
         <!-- LOG_ID_SSL_NEGOTIATION_BLOCK -->
         <if_sid>100010</if_sid>
         <field name="logid">062101$</field>
@@ -8903,7 +8903,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-negotiation,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101122" level="4">
+    <rule id="101122" level="7">
         <!-- LOG_ID_SSL_NEGOTIATION_BYPASS -->
         <if_sid>100010</if_sid>
         <field name="logid">062102$</field>
@@ -8911,7 +8911,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-negotiation,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101123" level="4">
+    <rule id="101123" level="2">
         <!-- LOG_ID_SSL_NEGOTIATION_INFO -->
         <if_sid>100010</if_sid>
         <field name="logid">062103$</field>
@@ -8919,7 +8919,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-negotiation,fortios.severity.information</group>
     </rule>
 
-    <rule id="101124" level="4">
+    <rule id="101124" level="2">
         <!-- LOG_ID_SSL_SERVER_CERT_INFO -->
         <if_sid>100010</if_sid>
         <field name="logid">062200$</field>
@@ -8927,7 +8927,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-server-cert-info,fortios.severity.information</group>
     </rule>
 
-    <rule id="101125" level="4">
+    <rule id="101125" level="2">
         <!-- LOG_ID_SSL_HANDSHAKE_INFO -->
         <if_sid>100010</if_sid>
         <field name="logid">062220$</field>
@@ -8935,7 +8935,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-handshake,fortios.severity.information</group>
     </rule>
 
-    <rule id="101126" level="4">
+    <rule id="101126" level="14">
         <!-- LOG_ID_SSL_ANOMALY_CERT_BLOCKLISTED -->
         <if_sid>100010</if_sid>
         <field name="logid">062300$</field>
@@ -8943,7 +8943,7 @@
         <group>fortios.event.ssl,fortios.category.ssl-anomaly,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101127" level="4">
+    <rule id="101127" level="9">
         <!-- LOG_ID_SSL_ANOMALY_CERT_RESIGN_TRUSTED -->
         <if_sid>100010</if_sid>
         <field name="logid">062301$</field>

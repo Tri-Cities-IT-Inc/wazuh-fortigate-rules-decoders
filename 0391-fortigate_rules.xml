@@ -5663,7 +5663,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100717" level="14">
+    <rule id="100717" level="12">
         <!-- LOG_ID_UPD_FGT_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">041001$</field>
@@ -5831,7 +5831,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100738" level="9">
+    <rule id="100738" level="10">
         <!-- LOG_ID_EVENT_AUTH_LOCKOUT -->
         <if_sid>100010</if_sid>
         <field name="logid">043010$</field>
@@ -5871,7 +5871,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
     
-    <rule id="100743" level="4">
+    <rule id="100743" level="5">
         <!-- LOG_ID_EVENT_AUTH_NTLM_AUTH_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">043017$</field>
@@ -5879,7 +5879,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
     
-    <rule id="100744" level="9">
+    <rule id="100744" level="10">
         <!-- LOG_ID_EVENT_AUTH_FGOVRD_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">043018$</field>

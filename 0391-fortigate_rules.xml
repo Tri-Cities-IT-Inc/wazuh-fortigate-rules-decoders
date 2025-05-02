@@ -5551,7 +5551,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100703" level="4">
+    <rule id="100703" level="2">
         <!-- LOG_ID_PPTPD_CLIENT_CON -->
         <if_sid>100010</if_sid>
         <field name="logid">040038$</field>
@@ -5559,7 +5559,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100704" level="4">
+    <rule id="100704" level="2">
         <!-- LOG_ID_PPTPD_CLIENT_DISCON -->
         <if_sid>100010</if_sid>
         <field name="logid">040039$</field>
@@ -5567,7 +5567,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100705" level="4">
+    <rule id="100705" level="2">
         <!-- LOG_ID_L2TP_TUNNEL_UP -->
         <if_sid>100010</if_sid>
         <field name="logid">040101$</field>
@@ -5575,7 +5575,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100706" level="4">
+    <rule id="100706" level="2">
         <!-- LOG_ID_L2TP_TUNNEL_DOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">040102$</field>
@@ -5583,7 +5583,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100707" level="4">
+    <rule id="100707" level="2">
         <!-- LOG_ID_L2TP_TUNNEL_STAT -->
         <if_sid>100010</if_sid>
         <field name="logid">040103$</field>
@@ -5591,7 +5591,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100708" level="4">
+    <rule id="100708" level="2">
         <!-- LOG_ID_L2TPD_START -->
         <if_sid>100010</if_sid>
         <field name="logid">040114$</field>
@@ -5599,7 +5599,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100709" level="4">
+    <rule id="100709" level="2">
         <!-- LOG_ID_L2TPD_EXIT -->
         <if_sid>100010</if_sid>
         <field name="logid">040115$</field>
@@ -5607,7 +5607,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100710" level="4">
+    <rule id="100710" level="2">
         <!-- LOG_ID_L2TPD_CLIENT_CON -->
         <if_sid>100010</if_sid>
         <field name="logid">040118$</field>
@@ -5615,7 +5615,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100711" level="0">
+    <rule id="100711" level="2">
         <!-- LOG_ID_EVENT_SYS_PERF -->
         <if_sid>100010</if_sid>
         <field name="logid">040704$</field>
@@ -5623,7 +5623,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100712" level="4">
+    <rule id="100712" level="2">
         <!-- LOG_ID_EVENT_SYS_CPU_USAGE -->
         <if_sid>100010</if_sid>
         <field name="logid">040705$</field>
@@ -5631,7 +5631,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100713" level="4">
+    <rule id="100713" level="2">
         <!-- LOG_ID_EVENT_SYS_BROKEN_SYMBOLIC_LINK -->
         <if_sid>100010</if_sid>
         <field name="logid">040706$</field>
@@ -5639,7 +5639,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100714" level="4">
+    <rule id="100714" level="2">
         <!-- LOG_ID_EVENT_SYS_CPU_USAGE_SINGLE_CORE -->
         <if_sid>100010</if_sid>
         <field name="logid">040707$</field>
@@ -5655,7 +5655,7 @@
         <group>fortios.event.event,fortios.category.wad,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100716" level="4">
+    <rule id="100716" level="3">
         <!-- LOG_ID_UPD_FGT_SUCC -->
         <if_sid>100010</if_sid>
         <field name="logid">041000$</field>
@@ -5663,7 +5663,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100717" level="4">
+    <rule id="100717" level="12">
         <!-- LOG_ID_UPD_FGT_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">041001$</field>
@@ -5671,7 +5671,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100718" level="4">
+    <rule id="100718" level="2">
         <!-- LOG_ID_UPD_SRC_VIS -->
         <if_sid>100010</if_sid>
         <field name="logid">041002$</field>
@@ -5679,7 +5679,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100719" level="4">
+    <rule id="100719" level="3">
         <!-- LOG_ID_UPD_FSA_VIRDB -->
         <if_sid>100010</if_sid>
         <field name="logid">041006$</field>
@@ -5687,7 +5687,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100720" level="4">
+    <rule id="100720" level="3">
         <!-- LOG_ID_UPD_MANUAL_LICENSE_SUCC -->
         <if_sid>100010</if_sid>
         <field name="logid">041007$</field>
@@ -5695,7 +5695,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100721" level="4">
+    <rule id="100721" level="5">
         <!-- LOG_ID_UPD_MANUAL_LICENSE_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">041008$</field>
@@ -5703,7 +5703,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100722" level="4">
+    <rule id="100722" level="14">
         <!-- LOG_ID_UPD_DB_SIGN_INVALID -->
         <if_sid>100010</if_sid>
         <field name="logid">041009$</field>
@@ -5711,7 +5711,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100723" level="4">
+    <rule id="100723" level="14">
         <!-- LOG_ID_UPD_DB_UNSIGNED_INSTALLED -->
         <if_sid>100010</if_sid>
         <field name="logid">041011$</field>
@@ -5719,7 +5719,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100724" level="4">
+    <rule id="100724" level="3">
         <!-- LOG_ID_EVENT_VPN_CERT_LOAD -->
         <if_sid>100010</if_sid>
         <field name="logid">041984$</field>
@@ -5727,7 +5727,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100725" level="4">
+    <rule id="100725" level="3">
         <!-- LOG_ID_EVENT_VPN_CERT_REMOVAL -->
         <if_sid>100010</if_sid>
         <field name="logid">041985$</field>
@@ -5735,7 +5735,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100726" level="4">
+    <rule id="100726" level="3">
         <!-- LOG_ID_EVENT_VPN_CERT_REGEN -->
         <if_sid>100010</if_sid>
         <field name="logid">041986$</field>
@@ -5743,7 +5743,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100727" level="4">
+    <rule id="100727" level="3">
         <!-- LOG_ID_EVENT_VPN_CERT_UPDATE -->
         <if_sid>100010</if_sid>
         <field name="logid">041987$</field>
@@ -5751,7 +5751,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100728" level="4">
+    <rule id="100728" level="3">
         <!-- LOG_ID_EVENT_SSL_VPN_SETTING_UPDATE -->
         <if_sid>100010</if_sid>
         <field name="logid">041988$</field>
@@ -5775,7 +5775,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100731" level="4">
+    <rule id="100731" level="2">
         <!-- LOG_ID_EVENT_VPN_CERT_EXPORT -->
         <if_sid>100010</if_sid>
         <field name="logid">041991$</field>
@@ -5783,7 +5783,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100732" level="4">
+    <rule id="100732" level="8">
         <!-- LOG_ID_EVENT_VPN_CERT_CRL_EXPIRED -->
         <if_sid>100010</if_sid>
         <field name="logid">041992$</field>
@@ -5791,7 +5791,7 @@
         <group>fortios.event.event,fortios.category.vpn,fortios.severity.information</group>
     </rule>
 
-    <rule id="100733" level="4">
+    <rule id="100733" level="2">
         <!-- LOG_ID_NETX_VMX_ATTACH -->
         <if_sid>100010</if_sid>
         <field name="logid">042201$</field>
@@ -5799,7 +5799,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100734" level="4">
+    <rule id="100734" level="2">
         <!-- LOG_ID_NETX_VMX_DETACH -->
         <if_sid>100010</if_sid>
         <field name="logid">042202$</field>
@@ -5807,7 +5807,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100735" level="4">
+    <rule id="100735" level="8">
         <!-- LOG_ID_NETX_VMX_DENIED -->
         <if_sid>100010</if_sid>
         <field name="logid">042203$</field>
@@ -5815,7 +5815,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100736" level="4">
+    <rule id="100736" level="3">
         <!-- LOG_ID_EVENT_AUTH_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043008$</field>
@@ -5823,7 +5823,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100737" level="4">
+    <rule id="100737" level="5">
         <!-- LOG_ID_EVENT_AUTH_FAILED -->
         <if_sid>100010</if_sid>
         <field name="logid">043009$</field>
@@ -5831,7 +5831,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100738" level="4">
+    <rule id="100738" level="10">
         <!-- LOG_ID_EVENT_AUTH_LOCKOUT -->
         <if_sid>100010</if_sid>
         <field name="logid">043010$</field>
@@ -5839,7 +5839,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100739" level="4">
+    <rule id="100739" level="2">
         <!-- LOG_ID_EVENT_AUTH_TIME_OUT -->
         <if_sid>100010</if_sid>
         <field name="logid">043011$</field>
@@ -5847,7 +5847,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100740" level="4">
+    <rule id="100740" level="2">
         <!-- LOG_ID_EVENT_AUTH_FSAE_LOGON -->
         <if_sid>100010</if_sid>
         <field name="logid">043014$</field>
@@ -5855,7 +5855,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100741" level="4">
+    <rule id="100741" level="2">
         <!-- LOG_ID_EVENT_AUTH_FSAE_LOGOFF -->
         <if_sid>100010</if_sid>
         <field name="logid">043015$</field>
@@ -5863,31 +5863,31 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100742" level="4">
+    <rule id="100742" level="3">
         <!-- LOG_ID_EVENT_AUTH_NTLM_AUTH_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043016$</field>
         <description>NTLM authentication successful</description>
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
-
-    <rule id="100743" level="4">
+    
+    <rule id="100743" level="5">
         <!-- LOG_ID_EVENT_AUTH_NTLM_AUTH_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">043017$</field>
         <description>NTLM authentication failed</description>
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
-
-    <rule id="100744" level="4">
+    
+    <rule id="100744" level="10">
         <!-- LOG_ID_EVENT_AUTH_FGOVRD_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">043018$</field>
         <description>FortiGuard override failed</description>
         <group>fortios.event.event,fortios.category.user,fortios.severity.warning</group>
     </rule>
-
-    <rule id="100745" level="4">
+   
+    <rule id="100745" level="3">
         <!-- LOG_ID_EVENT_AUTH_FGOVRD_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043020$</field>
@@ -5895,15 +5895,15 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100746" level="4">
+    <rule id="100746" level="3">
         <!-- LOG_ID_EVENT_AUTH_PROXY_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043025$</field>
         <description>Explicit proxy authentication successful</description>
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
-
-    <rule id="100747" level="4">
+    
+    <rule id="100747" level="5">
         <!-- LOG_ID_EVENT_AUTH_PROXY_FAILED -->
         <if_sid>100010</if_sid>
         <field name="logid">043026$</field>
@@ -5911,23 +5911,23 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100748" level="4">
+    <rule id="100748" level="2">
         <!-- LOG_ID_EVENT_AUTH_PROXY_TIME_OUT -->
         <if_sid>100010</if_sid>
         <field name="logid">043027$</field>
         <description>Explicit proxy authentication timed out</description>
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
-
-    <rule id="100749" level="4">
+     
+    <rule id="100749" level="9">
         <!-- LOG_ID_EVENT_AUTH_PROXY_GROUP_INFO_FAILED -->
         <if_sid>100010</if_sid>
         <field name="logid">043028$</field>
         <description>Explicit proxy user group query failed</description>
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
-
-    <rule id="100750" level="4">
+    
+    <rule id="100750" level="3">
         <!-- LOG_ID_EVENT_AUTH_WARNING_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043029$</field>
@@ -5935,14 +5935,14 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100751" level="4">
+    <rule id="100751" level="9">
         <!-- LOG_ID_EVENT_AUTH_WARNING_TBL_FULL -->
         <if_sid>100010</if_sid>
         <field name="logid">043030$</field>
         <description>FortiGuard authentication override failed</description>
         <group>fortios.event.event,fortios.category.user,fortios.severity.warning</group>
     </rule>
-
+   
     <rule id="100752" level="4">
         <!-- LOG_ID_EVENT_AUTH_PROXY_USER_LIMIT_REACHED -->
         <if_sid>100010</if_sid>
@@ -5951,7 +5951,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100753" level="4">
+    <rule id="100753" level="5">
         <!-- LOG_ID_EVENT_AUTH_PROXY_MULTIPLE_LOGIN -->
         <if_sid>100010</if_sid>
         <field name="logid">043033$</field>
@@ -5959,7 +5959,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100754" level="4">
+    <rule id="100754" level="2">
         <!-- LOG_ID_EVENT_AUTH_PROXY_NO_RESP -->
         <if_sid>100010</if_sid>
         <field name="logid">043034$</field>
@@ -5967,7 +5967,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100755" level="4">
+    <rule id="100755" level="2">
         <!-- LOG_ID_EVENT_AUTH_IPV4_FLUSH -->
         <if_sid>100010</if_sid>
         <field name="logid">043037$</field>
@@ -5975,7 +5975,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100756" level="4">
+    <rule id="100756" level="2">
         <!-- LOG_ID_EVENT_AUTH_IPV6_FLUSH -->
         <if_sid>100010</if_sid>
         <field name="logid">043038$</field>
@@ -5983,7 +5983,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100757" level="4">
+    <rule id="100757" level="2">
         <!-- LOG_ID_EVENT_AUTH_LOGON -->
         <if_sid>100010</if_sid>
         <field name="logid">043039$</field>
@@ -5991,7 +5991,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100758" level="4">
+    <rule id="100758" level="2">
         <!-- LOG_ID_EVENT_AUTH_LOGOUT -->
         <if_sid>100010</if_sid>
         <field name="logid">043040$</field>
@@ -5999,7 +5999,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100759" level="4">
+    <rule id="100759" level="2">
         <!-- LOG_ID_EVENT_AUTH_DISCLAIMER_ACCEPT -->
         <if_sid>100010</if_sid>
         <field name="logid">043041$</field>
@@ -6007,7 +6007,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100760" level="4">
+    <rule id="100760" level="2">
         <!-- LOG_ID_EVENT_AUTH_DISCLAIMER_DECLINE -->
         <if_sid>100010</if_sid>
         <field name="logid">043042$</field>
@@ -6015,7 +6015,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100761" level="4">
+    <rule id="100761" level="2">
         <!-- LOG_ID_EVENT_AUTH_EMAIL_COLLECTING_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043043$</field>
@@ -6031,7 +6031,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100763" level="4">
+    <rule id="100763" level="3">
         <!-- LOG_ID_EVENT_AUTH_8021X_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043045$</field>
@@ -6039,7 +6039,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100764" level="4">
+    <rule id="100764" level="9">
         <!-- LOG_ID_EVENT_AUTH_8021X_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">043046$</field>
@@ -6047,7 +6047,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100765" level="4">
+    <rule id="100765" level="2">
         <!-- LOG_ID_EVENT_AUTH_FSAE_CONNECT -->
         <if_sid>100010</if_sid>
         <field name="logid">043050$</field>
@@ -6055,7 +6055,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100766" level="4">
+    <rule id="100766" level="2">
         <!-- LOG_ID_EVENT_AUTH_FSAE_DISCONNECT -->
         <if_sid>100010</if_sid>
         <field name="logid">043051$</field>
@@ -6063,7 +6063,7 @@
         <group>fortios.event.event,fortios.category.user,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100767" level="4">
+    <rule id="100767" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_SYS -->
         <if_sid>100010</if_sid>
         <field name="logid">043520$</field>
@@ -6071,7 +6071,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100768" level="4">
+    <rule id="100768" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE -->
         <if_sid>100010</if_sid>
         <field name="logid">043521$</field>
@@ -6079,7 +6079,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100769" level="4">
+    <rule id="100769" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTP -->
         <if_sid>100010</if_sid>
         <field name="logid">043522$</field>
@@ -6087,7 +6087,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100770" level="4">
+    <rule id="100770" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA -->
         <if_sid>100010</if_sid>
         <field name="logid">043524$</field>
@@ -6095,7 +6095,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100771" level="4">
+    <rule id="100771" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ONWIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">043525$</field>
@@ -6103,7 +6103,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100772" level="4">
+    <rule id="100772" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR -->
         <if_sid>100010</if_sid>
         <field name="logid">043526$</field>
@@ -6111,7 +6111,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100773" level="4">
+    <rule id="100773" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_CFG -->
         <if_sid>100010</if_sid>
         <field name="logid">043527$</field>
@@ -6119,7 +6119,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100774" level="4">
+    <rule id="100774" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR_ERROR -->
         <if_sid>100010</if_sid>
         <field name="logid">043528$</field>
@@ -6127,7 +6127,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.error</group>
     </rule>
 
-    <rule id="100775" level="4">
+    <rule id="100775" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_CLB -->
         <if_sid>100010</if_sid>
         <field name="logid">043529$</field>
@@ -6135,7 +6135,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100776" level="4">
+    <rule id="100776" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_WL_BRIDGE -->
         <if_sid>100010</if_sid>
         <field name="logid">043530$</field>
@@ -6143,7 +6143,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100777" level="4">
+    <rule id="100777" level="14">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_BR_DEAUTH -->
         <if_sid>100010</if_sid>
         <field name="logid">043531$</field>
@@ -6151,7 +6151,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100778" level="4">
+    <rule id="100778" level="6">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_NL_PBRESP -->
         <if_sid>100010</if_sid>
         <field name="logid">043532$</field>
@@ -6159,7 +6159,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100779" level="4">
+    <rule id="100779" level="6">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_MAC_OUI -->
         <if_sid>100010</if_sid>
         <field name="logid">043533$</field>
@@ -6167,7 +6167,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100780" level="4">
+    <rule id="100780" level="6">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_LONG_DUR -->
         <if_sid>100010</if_sid>
         <field name="logid">043534$</field>
@@ -6175,7 +6175,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100781" level="4">
+    <rule id="100781" level="6">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_WEP_IV -->
         <if_sid>100010</if_sid>
         <field name="logid">043535$</field>
@@ -6183,7 +6183,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100782" level="4">
+    <rule id="100782" level="13">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_EAPOL_FLOOD -->
         <if_sid>100010</if_sid>
         <field name="logid">043542$</field>
@@ -6191,7 +6191,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100783" level="4">
+    <rule id="100783" level="13">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_MGMT_FLOOD -->
         <if_sid>100010</if_sid>
         <field name="logid">043544$</field>
@@ -6199,7 +6199,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100784" level="4">
+    <rule id="100784" level="13">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_SPOOF_DEAUTH -->
         <if_sid>100010</if_sid>
         <field name="logid">043546$</field>
@@ -6207,7 +6207,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100785" level="4">
+    <rule id="100785" level="13">
         <!-- LOG_ID_EVENT_WIRELESS_WIDS_ASLEAP -->
         <if_sid>100010</if_sid>
         <field name="logid">043548$</field>
@@ -6215,7 +6215,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100786" level="4">
+    <rule id="100786" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_LOCATE -->
         <if_sid>100010</if_sid>
         <field name="logid">043550$</field>
@@ -6223,7 +6223,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.information</group>
     </rule>
 
-    <rule id="100787" level="4">
+    <rule id="100787" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTP_JOIN -->
         <if_sid>100010</if_sid>
         <field name="logid">043551$</field>
@@ -6231,7 +6231,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100788" level="4">
+    <rule id="100788" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTP_LEAVE -->
         <if_sid>100010</if_sid>
         <field name="logid">043552$</field>
@@ -6247,7 +6247,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100790" level="4">
+    <rule id="100790" level="3">
         <!-- LOG_ID_EVENT_WIRELESS_WTP_UPDATE -->
         <if_sid>100010</if_sid>
         <field name="logid">043554$</field>
@@ -6255,7 +6255,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100791" level="4">
+    <rule id="100791" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTP_RESET -->
         <if_sid>100010</if_sid>
         <field name="logid">043555$</field>
@@ -6263,7 +6263,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100792" level="4">
+    <rule id="100792" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTP_KICK -->
         <if_sid>100010</if_sid>
         <field name="logid">043556$</field>
@@ -6271,7 +6271,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100793" level="4">
+    <rule id="100793" level="5">
         <!-- LOG_ID_EVENT_WIRELESS_WTP_ADD_FAILURE -->
         <if_sid>100010</if_sid>
         <field name="logid">043557$</field>
@@ -6287,7 +6287,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100795" level="4">
+    <rule id="100795" level="8">
         <!-- LOG_ID_EVENT_WIRELESS_WTP_SN_MISMATCH -->
         <if_sid>100010</if_sid>
         <field name="logid">043559$</field>
@@ -6295,7 +6295,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100796" level="4">
+    <rule id="100796" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_SYS_AC_RESTARTED -->
         <if_sid>100010</if_sid>
         <field name="logid">043560$</field>
@@ -6303,7 +6303,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100797" level="4">
+    <rule id="100797" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_SYS_AC_HOSTAPD_UP -->
         <if_sid>100010</if_sid>
         <field name="logid">043561$</field>
@@ -6311,7 +6311,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100798" level="4">
+    <rule id="100798" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_SYS_AC_HOSTAPD_DOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">043562$</field>
@@ -6319,7 +6319,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100799" level="4">
+    <rule id="100799" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_DETECT -->
         <if_sid>100010</if_sid>
         <field name="logid">043563$</field>
@@ -6327,7 +6327,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100800" level="4">
+    <rule id="100800" level="6">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_OFFAIR -->
         <if_sid>100010</if_sid>
         <field name="logid">043564$</field>
@@ -6335,7 +6335,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100801" level="4">
+    <rule id="100801" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_ONAIR -->
         <if_sid>100010</if_sid>
         <field name="logid">043565$</field>
@@ -6343,7 +6343,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100802" level="4">
+    <rule id="100802" level="6">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_OFFWIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">043566$</field>
@@ -6351,7 +6351,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100803" level="4">
+    <rule id="100803" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_FAKEAP_DETECT -->
         <if_sid>100010</if_sid>
         <field name="logid">043567$</field>
@@ -6359,7 +6359,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100804" level="4">
+    <rule id="100804" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_FAKEAP_ONAIR -->
         <if_sid>100010</if_sid>
         <field name="logid">043568$</field>
@@ -6367,7 +6367,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100805" level="4">
+    <rule id="100805" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_SUPPRESSED -->
         <if_sid>100010</if_sid>
         <field name="logid">043569$</field>
@@ -6375,7 +6375,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100806" level="4">
+    <rule id="100806" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_UNSUPPRESSED -->
         <if_sid>100010</if_sid>
         <field name="logid">043570$</field>
@@ -6383,7 +6383,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100807" level="4">
+    <rule id="100807" level="12">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_DETECT_CHG -->
         <if_sid>100010</if_sid>
         <field name="logid">043571$</field>
@@ -6391,7 +6391,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100808" level="4">
+    <rule id="100808" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_ASSO -->
         <if_sid>100010</if_sid>
         <field name="logid">043572$</field>
@@ -6399,7 +6399,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100809" level="4">
+    <rule id="100809" level="3">
         <!-- LOG_ID_EVENT_WIRELESS_STA_AUTH -->
         <if_sid>100010</if_sid>
         <field name="logid">043573$</field>
@@ -6407,7 +6407,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100810" level="4">
+    <rule id="100810" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_DASS -->
         <if_sid>100010</if_sid>
         <field name="logid">043574$</field>
@@ -6415,7 +6415,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100811" level="4">
+    <rule id="100811" level="3">
         <!-- LOG_ID_EVENT_WIRELESS_STA_DAUT -->
         <if_sid>100010</if_sid>
         <field name="logid">043575$</field>
@@ -6423,7 +6423,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100812" level="4">
+    <rule id="100812" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_IDLE -->
         <if_sid>100010</if_sid>
         <field name="logid">043576$</field>
@@ -6431,7 +6431,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100813" level="4">
+    <rule id="100813" level="5">
         <!-- LOG_ID_EVENT_WIRELESS_STA_DENY -->
         <if_sid>100010</if_sid>
         <field name="logid">043577$</field>
@@ -6439,7 +6439,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100814" level="4">
+    <rule id="100814" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_KICK -->
         <if_sid>100010</if_sid>
         <field name="logid">043578$</field>
@@ -6447,7 +6447,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100815" level="4">
+    <rule id="100815" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_IP -->
         <if_sid>100010</if_sid>
         <field name="logid">043579$</field>
@@ -6455,7 +6455,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100816" level="4">
+    <rule id="100816" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_LEAVE_WTP -->
         <if_sid>100010</if_sid>
         <field name="logid">043580$</field>
@@ -6463,7 +6463,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100817" level="4">
+    <rule id="100817" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_WTP_DISCONN -->
         <if_sid>100010</if_sid>
         <field name="logid">043581$</field>
@@ -6471,7 +6471,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100818" level="4">
+    <rule id="100818" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_CFG_UNCLASSIFIED -->
         <if_sid>100010</if_sid>
         <field name="logid">043582$</field>
@@ -6479,7 +6479,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100819" level="4">
+    <rule id="100819" level="8">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_CFG_ACCEPTED -->
         <if_sid>100010</if_sid>
         <field name="logid">043583$</field>
@@ -6487,7 +6487,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100820" level="4">
+    <rule id="100820" level="8">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_CFG_ROGUE -->
         <if_sid>100010</if_sid>
         <field name="logid">043584$</field>
@@ -6495,7 +6495,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100821" level="4">
+    <rule id="100821" level="8">
         <!-- LOG_ID_EVENT_WIRELESS_ROGUE_CFG_SUPPRESSED -->
         <if_sid>100010</if_sid>
         <field name="logid">043585$</field>
@@ -6503,7 +6503,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100822" level="4">
+    <rule id="100822" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR_DARRP_CHAN -->
         <if_sid>100010</if_sid>
         <field name="logid">043586$</field>
@@ -6511,7 +6511,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100823" level="4">
+    <rule id="100823" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR_DARRP_START -->
         <if_sid>100010</if_sid>
         <field name="logid">043587$</field>
@@ -6519,7 +6519,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100824" level="4">
+    <rule id="100824" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR_OPER_CHAN -->
         <if_sid>100010</if_sid>
         <field name="logid">043588$</field>
@@ -6527,7 +6527,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100825" level="4">
+    <rule id="100825" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR_RADAR -->
         <if_sid>100010</if_sid>
         <field name="logid">043589$</field>
@@ -6535,7 +6535,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100826" level="4">
+    <rule id="100826" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR_NOL -->
         <if_sid>100010</if_sid>
         <field name="logid">043590$</field>
@@ -6543,7 +6543,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100827" level="4">
+    <rule id="100827" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_WTPR_COUNTRY_CFG_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">043591$</field>

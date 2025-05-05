@@ -2422,7 +2422,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100312" level="12">
+    <rule id="100312" level="3">
         <!-- LOG_ID_EVENT_ROUTE_INFO_CHANGED -->
         <if_sid>100010</if_sid>
         <field name="logid">022921$</field>

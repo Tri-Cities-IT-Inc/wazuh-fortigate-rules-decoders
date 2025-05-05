@@ -7551,7 +7551,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100953" level="4">
+    <rule id="100953" level="2">
         <!-- LOG_ID_EVENT_WIRELESS_STA_PROBE_LOW_RSSI -->
         <if_sid>100010</if_sid>
         <field name="logid">043719$</field>
@@ -7559,7 +7559,7 @@
         <group>fortios.event.event,fortios.category.wireless,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100954" level="4">
+    <rule id="100954" level="6">
         <!-- LOG_ID_EVENT_NAC_QUARANTINE -->
         <if_sid>100010</if_sid>
         <field name="logid">043776$</field>
@@ -7567,7 +7567,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100955" level="4">
+    <rule id="100955" level="12">
         <!-- LOG_ID_EVENT_NAC_ANOMALY_QUARANTINE -->
         <if_sid>100010</if_sid>
         <field name="logid">043777$</field>
@@ -7575,7 +7575,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100956" level="4">
+    <rule id="100956" level="3">
         <!-- LOG_ID_EVENT_ELBC_BLADE_JOIN -->
         <if_sid>100010</if_sid>
         <field name="logid">043800$</field>
@@ -7583,7 +7583,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100957" level="4">
+    <rule id="100957" level="11">
         <!-- LOG_ID_EVENT_ELBC_BLADE_LEAVE -->
         <if_sid>100010</if_sid>
         <field name="logid">043801$</field>
@@ -7591,7 +7591,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100958" level="4">
+    <rule id="100958" level="2">
         <!-- LOG_ID_EVENT_ELBC_MASTER_BLADE_FOUND -->
         <if_sid>100010</if_sid>
         <field name="logid">043802$</field>
@@ -7599,7 +7599,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100959" level="4">
+    <rule id="100959" level="12">
         <!-- LOG_ID_EVENT_ELBC_MASTER_BLADE_LOST -->
         <if_sid>100010</if_sid>
         <field name="logid">043803$</field>
@@ -7607,7 +7607,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100960" level="4">
+    <rule id="100960" level="6">
         <!-- LOG_ID_EVENT_ELBC_MASTER_BLADE_CHANGE -->
         <if_sid>100010</if_sid>
         <field name="logid">043804$</field>
@@ -7615,7 +7615,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100961" level="4">
+    <rule id="100961" level="6">
         <!-- LOG_ID_EVENT_ELBC_ACTIVE_CHANNEL_FOUND -->
         <if_sid>100010</if_sid>
         <field name="logid">043805$</field>
@@ -7623,7 +7623,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100962" level="4">
+    <rule id="100962" level="12">
         <!-- LOG_ID_EVENT_ELBC_ACTIVE_CHANNEL_LOST -->
         <if_sid>100010</if_sid>
         <field name="logid">043806$</field>
@@ -7631,7 +7631,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100963" level="4">
+    <rule id="100963" level="10">
         <!-- LOG_ID_EVENT_ELBC_ACTIVE_CHANNEL_CHANGE -->
         <if_sid>100010</if_sid>
         <field name="logid">043807$</field>
@@ -7639,7 +7639,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100964" level="4">
+    <rule id="100964" level="6">
         <!-- LOG_ID_EVENT_ELBC_CHASSIS_ACTIVE -->
         <if_sid>100010</if_sid>
         <field name="logid">043808$</field>
@@ -7647,7 +7647,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100965" level="4">
+    <rule id="100965" level="12">
         <!-- LOG_ID_EVENT_ELBC_CHASSIS_INACTIVE -->
         <if_sid>100010</if_sid>
         <field name="logid">043809$</field>
@@ -7655,7 +7655,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100966" level="4">
+    <rule id="100966" level="3">
         <!-- LOGID_EVENT_CONFIG_PATH -->
         <if_sid>100010</if_sid>
         <field name="logid">044544$</field>
@@ -7663,7 +7663,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="100967" level="4">
+    <rule id="100967" level="3">
         <!-- LOGID_EVENT_CONFIG_OBJ -->
         <if_sid>100010</if_sid>
         <field name="logid">044545$</field>
@@ -7671,7 +7671,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="100968" level="4">
+    <rule id="100968" level="3">
         <!-- LOGID_EVENT_CONFIG_ATTR -->
         <if_sid>100010</if_sid>
         <field name="logid">044546$</field>
@@ -7679,7 +7679,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="100969" level="4">
+    <rule id="100969" level="3">
         <!-- LOGID_EVENT_CONFIG_OBJATTR -->
         <if_sid>100010</if_sid>
         <field name="logid">044547$</field>
@@ -7687,7 +7687,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="100970" level="4">
+    <rule id="100970" level="3">
         <!-- LOGID_EVENT_CONFIG_EXEC -->
         <if_sid>100010</if_sid>
         <field name="logid">044548$</field>
@@ -7695,7 +7695,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="100971" level="4">
+    <rule id="100971" level="12">
         <!-- LOGID_EVENT_CMDB_DEADLOCK_DETECTED -->
         <if_sid>100010</if_sid>
         <field name="logid">044555$</field>
@@ -7703,7 +7703,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100972" level="4">
+    <rule id="100972" level="2">
         <!-- LOG_ID_FCC_ADD -->
         <if_sid>100010</if_sid>
         <field name="logid">045057$</field>
@@ -7711,7 +7711,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.information</group>
     </rule>
 
-    <rule id="100973" level="4">
+    <rule id="100973" level="2">
         <!-- LOG_ID_FCC_CLOSE -->
         <if_sid>100010</if_sid>
         <field name="logid">045058$</field>
@@ -7719,7 +7719,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.information</group>
     </rule>
 
-    <rule id="100974" level="4">
+    <rule id="100974" level="2">
         <!-- LOG_ID_FCC_CLOSE_BY_TYPE -->
         <if_sid>100010</if_sid>
         <field name="logid">045061$</field>
@@ -7735,7 +7735,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100976" level="4">
+    <rule id="100976" level="12">
         <!-- LOG_ID_EC_REG_QUARANTINE -->
         <if_sid>100010</if_sid>
         <field name="logid">045114$</field>
@@ -7743,7 +7743,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100977" level="4">
+    <rule id="100977" level="3">
         <!-- LOG_ID_EC_REG_UNQUARANTINE -->
         <if_sid>100010</if_sid>
         <field name="logid">045115$</field>
@@ -7751,7 +7751,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100978" level="4">
+    <rule id="100978" level="2">
         <!-- LOG_ID_EC_EMS_WS_NOTIFICATION -->
         <if_sid>100010</if_sid>
         <field name="logid">045121$</field>
@@ -7775,7 +7775,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100981" level="4">
+    <rule id="100981" level="3">
         <!-- LOG_ID_EC_VPND_CONNECT -->
         <if_sid>100010</if_sid>
         <field name="logid">045124$</field>
@@ -7783,7 +7783,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100982" level="4">
+    <rule id="100982" level="3">
         <!-- LOG_ID_EC_VPND_DISCONNECT -->
         <if_sid>100010</if_sid>
         <field name="logid">045125$</field>
@@ -7791,7 +7791,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100983" level="4">
+    <rule id="100983" level="6">
         <!-- LOG_ID_EC_CLOUD_ENTITLEMENT_LOST -->
         <if_sid>100010</if_sid>
         <field name="logid">045126$</field>
@@ -7799,7 +7799,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100984" level="4">
+    <rule id="100984" level="2">
         <!-- LOG_ID_EC_EMS_REST_API_NEW_SUCCESS -->
         <if_sid>100010</if_sid>
         <field name="logid">045128$</field>
@@ -7807,7 +7807,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.information</group>
     </rule>
 
-    <rule id="100985" level="4">
+    <rule id="100985" level="2">
         <!-- LOG_ID_EC_EMS_EMS_VERIFY -->
         <if_sid>100010</if_sid>
         <field name="logid">045129$</field>
@@ -7831,7 +7831,7 @@
         <group>fortios.event.event,fortios.category.endpoint,fortios.severity.information</group>
     </rule>
 
-    <rule id="100988" level="4">
+    <rule id="100988" level="2">
         <!-- LOG_ID_VIP_REAL_SVR_ENA -->
         <if_sid>100010</if_sid>
         <field name="logid">046000$</field>
@@ -7839,7 +7839,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100989" level="4">
+    <rule id="100989" level="12">
         <!-- LOG_ID_VIP_REAL_SVR_DISA -->
         <if_sid>100010</if_sid>
         <field name="logid">046001$</field>
@@ -7847,7 +7847,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="100990" level="4">
+    <rule id="100990" level="2">
         <!-- LOG_ID_VIP_REAL_SVR_UP -->
         <if_sid>100010</if_sid>
         <field name="logid">046002$</field>
@@ -7855,7 +7855,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100991" level="4">
+    <rule id="100991" level="12">
         <!-- LOG_ID_VIP_REAL_SVR_DOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">046003$</field>
@@ -7863,7 +7863,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="100992" level="4">
+    <rule id="100992" level="6">
         <!-- LOG_ID_VIP_REAL_SVR_ENT_HOLDDOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">046004$</field>
@@ -7871,7 +7871,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100993" level="4">
+    <rule id="100993" level="6">
         <!-- LOG_ID_VIP_REAL_SVR_FAIL_HOLDDOWN -->
         <if_sid>100010</if_sid>
         <field name="logid">046005$</field>
@@ -7879,7 +7879,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.alert</group>
     </rule>
 
-    <rule id="100994" level="4">
+    <rule id="100994" level="6">
         <!-- LOG_ID_VIP_REAL_SVR_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">046006$</field>
@@ -7887,7 +7887,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.debug</group>
     </rule>
 
-    <rule id="100995" level="4">
+    <rule id="100995" level="2">
         <!-- LOG_ID_EVENT_EXT_SYS -->
         <if_sid>100010</if_sid>
         <field name="logid">046400$</field>
@@ -7895,7 +7895,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100996" level="4">
+    <rule id="100996" level="2">
         <!-- LOG_ID_EVENT_EXT_LOCAL -->
         <if_sid>100010</if_sid>
         <field name="logid">046401$</field>
@@ -7903,7 +7903,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100997" level="4">
+    <rule id="100997" level="6">
         <!-- LOG_ID_EVENT_EXT_LOCAL_ERROR -->
         <if_sid>100010</if_sid>
         <field name="logid">046402$</field>
@@ -7911,7 +7911,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.error</group>
     </rule>
 
-    <rule id="100998" level="4">
+    <rule id="100998" level="15">
         <!-- LOG_ID_EVENT_EXT_REMOTE_EMERG -->
         <if_sid>100010</if_sid>
         <field name="logid">046403$</field>
@@ -7919,7 +7919,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.emergency</group>
     </rule>
 
-    <rule id="100999" level="4">
+    <rule id="100999" level="13">
         <!-- LOG_ID_EVENT_EXT_REMOTE_ALERT -->
         <if_sid>100010</if_sid>
         <field name="logid">046404$</field>
@@ -7927,7 +7927,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.alert</group>
     </rule>
 
-    <rule id="101000" level="4">
+    <rule id="101000" level="12">
         <!-- LOG_ID_EVENT_EXT_REMOTE_CRITICAL -->
         <if_sid>100010</if_sid>
         <field name="logid">046405$</field>
@@ -7935,7 +7935,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.critical</group>
     </rule>
 
-    <rule id="101001" level="4">
+    <rule id="101001" level="6">
         <!-- LOG_ID_EVENT_EXT_REMOTE_ERROR -->
         <if_sid>100010</if_sid>
         <field name="logid">046406$</field>
@@ -7943,7 +7943,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.error</group>
     </rule>
 
-    <rule id="101002" level="4">
+    <rule id="101002" level="6">
         <!-- LOG_ID_EVENT_EXT_REMOTE_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">046407$</field>
@@ -7951,7 +7951,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101003" level="4">
+    <rule id="101003" level="2">
         <!-- LOG_ID_EVENT_EXT_REMOTE_NOTIF -->
         <if_sid>100010</if_sid>
         <field name="logid">046408$</field>
@@ -7959,7 +7959,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101004" level="4">
+    <rule id="101004" level="2">
         <!-- LOG_ID_EVENT_EXT_REMOTE_INFO -->
         <if_sid>100010</if_sid>
         <field name="logid">046409$</field>
@@ -7967,7 +7967,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.information</group>
     </rule>
 
-    <rule id="101005" level="4">
+    <rule id="101005" level="2">
         <!-- LOG_ID_EVENT_EXT_REMOTE_DEBUG -->
         <if_sid>100010</if_sid>
         <field name="logid">046410$</field>
@@ -7975,7 +7975,7 @@
         <group>fortios.event.event,fortios.category.fortiextender,fortios.severity.debug</group>
     </rule>
 
-    <rule id="101006" level="4">
+    <rule id="101006" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_DETECTION -->
         <if_sid>100010</if_sid>
         <field name="logid">046501$</field>
@@ -7983,7 +7983,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101007" level="4">
+    <rule id="101007" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_GPSD -->
         <if_sid>100010</if_sid>
         <field name="logid">046502$</field>
@@ -7991,7 +7991,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101008" level="4">
+    <rule id="101008" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_GPS_LOC_ACQUISITION -->
         <if_sid>100010</if_sid>
         <field name="logid">046503$</field>
@@ -7999,7 +7999,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101009" level="4">
+    <rule id="101009" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_BILLD -->
         <if_sid>100010</if_sid>
         <field name="logid">046504$</field>
@@ -8007,7 +8007,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101010" level="4">
+    <rule id="101010" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_BILLING_PURGED -->
         <if_sid>100010</if_sid>
         <field name="logid">046505$</field>
@@ -8015,7 +8015,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101011" level="4">
+    <rule id="101011" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_BILLING_DAILY_LOG -->
         <if_sid>100010</if_sid>
         <field name="logid">046506$</field>
@@ -8023,7 +8023,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101012" level="4">
+    <rule id="101012" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_FW_UPGRADE -->
         <if_sid>100010</if_sid>
         <field name="logid">046507$</field>
@@ -8031,7 +8031,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101013" level="4">
+    <rule id="101013" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_QDL_DETECTION -->
         <if_sid>100010</if_sid>
         <field name="logid">046508$</field>
@@ -8039,7 +8039,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101014" level="4">
+    <rule id="101014" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_REBOOT -->
         <if_sid>100010</if_sid>
         <field name="logid">046509$</field>
@@ -8047,7 +8047,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101015" level="4">
+    <rule id="101015" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_OP_MODE -->
         <if_sid>100010</if_sid>
         <field name="logid">046510$</field>
@@ -8055,7 +8055,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101016" level="4">
+    <rule id="101016" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_POWER_ON_OFF -->
         <if_sid>100010</if_sid>
         <field name="logid">046511$</field>
@@ -8063,7 +8063,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101017" level="4">
+    <rule id="101017" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_SIM_STATE -->
         <if_sid>100010</if_sid>
         <field name="logid">046512$</field>
@@ -8071,7 +8071,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101018" level="4">
+    <rule id="101018" level="3">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_LINK_CONNECTION -->
         <if_sid>100010</if_sid>
         <field name="logid">046513$</field>
@@ -8079,7 +8079,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101019" level="4">
+    <rule id="101019" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_MANUAL_HANDOVER -->
         <if_sid>100010</if_sid>
         <field name="logid">046514$</field>
@@ -8087,7 +8087,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="101020" level="4">
+    <rule id="101020" level="2">
         <!-- LOG_ID_INTERNAL_LTE_MODEM_IP_ADDR -->
         <if_sid>100010</if_sid>
         <field name="logid">046515$</field>

@@ -862,7 +862,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.error</group>
     </rule>
 
-    <rule id="100117" level="13">
+    <rule id="100117" level="7">
         <!-- LOG_ID_IPSA_STATUSUPD_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">020115$</field>

@@ -8111,7 +8111,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101023" level="4">
+    <rule id="101023" level="3">
         <!-- LOG_ID_EVENT_AUTOMATION_TRIGGERED -->
         <if_sid>100010</if_sid>
         <field name="logid">046600$</field>
@@ -8119,7 +8119,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="101024" level="12">
+    <rule id="101024" level="4">
         <!-- LOG_ID_POE_STATUS_REPORT -->
         <if_sid>100010</if_sid>
         <field name="logid">046900$</field>

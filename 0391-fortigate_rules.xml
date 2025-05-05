@@ -3478,7 +3478,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.error</group>
     </rule>
 
-    <rule id="100444" level=12">
+    <rule id="100444" level="12">
         <!-- LOG_ID_BACKUP_CONF_ALERT -->
         <if_sid>100010</if_sid>
         <field name="logid">032145$</field>

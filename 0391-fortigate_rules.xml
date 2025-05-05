@@ -2502,7 +2502,7 @@
         <group>fortios.event.event,fortios.category.sdwan,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100322" level="12">
+    <rule id="100322" level="4">
         <!-- LOG_ID_EVENT_VWL_SLA_INFO_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">022931$</field>
@@ -5663,7 +5663,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100717" level="12">
+    <rule id="100717" level="4">
         <!-- LOG_ID_UPD_FGT_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">041001$</field>

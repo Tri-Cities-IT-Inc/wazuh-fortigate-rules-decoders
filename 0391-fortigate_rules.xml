@@ -1686,7 +1686,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="100220" level="12">
+    <rule id="100220" level="4">
         <!-- LOG_ID_FEDERATED_UPGRADE_FAILED -->
         <if_sid>100010</if_sid>
         <field name="logid">022092$</field>
@@ -1710,7 +1710,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.information</group>
     </rule>
 
-    <rule id="100223" level="12">
+    <rule id="100223" level="4">
         <!-- LOG_ID_FEDERATED_UPGRADE_ROOT_NOT_COMPLETED -->
         <if_sid>100010</if_sid>
         <field name="logid">022095$</field>
@@ -2494,7 +2494,7 @@
         <group>fortios.event.event,fortios.category.sdwan,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100321" level="12">
+    <rule id="100321" level="4">
         <!-- LOG_ID_EVENT_VWL_LQTY_STATUS_WARNING -->
         <if_sid>100010</if_sid>
         <field name="logid">022930$</field>

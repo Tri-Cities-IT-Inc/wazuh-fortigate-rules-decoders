@@ -3142,7 +3142,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100402" level="12">
+    <rule id="100402" level="4">
         <!-- LOG_ID_MEM_LOG_FINAL_FULL -->
         <if_sid>100010</if_sid>
         <field name="logid">032043$</field>

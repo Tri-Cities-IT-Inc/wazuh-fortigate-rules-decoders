@@ -790,7 +790,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100108" level="12">
+    <rule id="100108" level="10">
         <!-- LOG_ID_WEB_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020101$</field>
@@ -798,7 +798,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100109" level="12">
+    <rule id="100109" level="10">
         <!-- LOG_ID_SPAM_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020102$</field>
@@ -806,7 +806,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100110" level="12">
+    <rule id="100110" level="10">
         <!-- LOG_ID_AV_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020103$</field>
@@ -814,7 +814,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100111" level="12">
+    <rule id="100111" level="10">
         <!-- LOG_ID_IPS_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020104$</field>
@@ -838,7 +838,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100114" level="12">
+    <rule id="100114" level="10">
         <!-- LOG_ID_WEB_LIC_EXPIRED -->
         <if_sid>100010</if_sid>
         <field name="logid">020109$</field>
@@ -870,7 +870,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.error</group>
     </rule>
 
-    <rule id="100118" level="12">
+    <rule id="100118" level="10">
         <!-- LOG_ID_SPAM_LIC_EXPIRED -->
         <if_sid>100010</if_sid>
         <field name="logid">020116$</field>
@@ -878,7 +878,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100119" level="12">
+    <rule id="100119" level="10">
         <!-- LOG_ID_AV_LIC_EXPIRED -->
         <if_sid>100010</if_sid>
         <field name="logid">020117$</field>
@@ -902,7 +902,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100122" level="12">
+    <rule id="100122" level="10">
         <!-- LOG_ID_FMGC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020120$</field>
@@ -910,7 +910,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100123" level="12">
+    <rule id="100123" level="10">
         <!-- LOG_ID_FAZC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020121$</field>
@@ -918,7 +918,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100124" level="12">
+    <rule id="100124" level="10">
         <!-- LOG_ID_SWNO_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020122$</field>
@@ -926,7 +926,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100125" level="12">
+    <rule id="100125" level="10">
         <!-- LOG_ID_SWNM_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020123$</field>
@@ -934,7 +934,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100126" level="12">
+    <rule id="100126" level="10">
         <!-- LOG_ID_VMLS_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020124$</field>
@@ -942,7 +942,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100127" level="12">
+    <rule id="100127" level="10">
         <!-- LOG_ID_SFAS_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020125$</field>
@@ -950,7 +950,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100128" level="12">
+    <rule id="100128" level="10">
         <!-- LOG_ID_IPMC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020126$</field>
@@ -958,7 +958,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100129" level="12">
+    <rule id="100129" level="10">
         <!-- LOG_ID_IOTH_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020127$</field>
@@ -966,7 +966,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100130" level="12">
+    <rule id="100130" level="10">
         <!-- LOG_ID_FSAC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020128$</field>
@@ -974,7 +974,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100131" level="12">
+    <rule id="100131" level="10">
         <!-- LOG_ID_AFAC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020129$</field>
@@ -982,7 +982,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100132" level="12">
+    <rule id="100132" level="10">
         <!-- LOG_ID_EMSC_ACC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020130$</field>
@@ -990,7 +990,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100133" level="12">
+    <rule id="100133" level="10">
         <!-- LOG_ID_FMGC_ACC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020131$</field>
@@ -998,7 +998,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100134" level="12">
+    <rule id="100134" level="10">
         <!-- LOG_ID_FSAP_ACC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020132$</field>
@@ -1022,7 +1022,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100137" level="12">
+    <rule id="100137" level="10">
         <!-- LOG_ID_FAIS_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020135$</field>
@@ -2054,7 +2054,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100266" level="12">
+    <rule id="100266" level="10">
         <!-- LOG_ID_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">022808$</field>
@@ -2062,7 +2062,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100267" level="12">
+    <rule id="100267" level="10">
         <!-- LOG_ID_LIC_WILL_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">022809$</field>
@@ -2918,7 +2918,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100374" level="12">
+    <rule id="100374" level="10">
         <!-- LOG_ID_CS_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">032014$</field>
@@ -3158,7 +3158,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100404" level="12">
+    <rule id="100404" level="10">
         <!-- LOG_ID_MGR_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">032045$</field>
@@ -3174,7 +3174,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100406" level="4">
+    <rule id="100406" level="10">
         <!-- LOG_ID_FC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">032049$</field>
@@ -3734,7 +3734,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100476" level="12">
+    <rule id="100476" level="10">
         <!-- LOG_ID_RESTORE_VDOM_LIC -->
         <if_sid>100010</if_sid>
         <field name="logid">032205$</field>
@@ -10481,7 +10481,7 @@
         <group>fortios.event.casb,fortios.category.casb,fortios.severity.information</group>
     </rule>
 
-    <rule id="101319" level="12">
+    <rule id="101319" level="10">
         <!-- LOG_ID_DLP_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020136$</field>
@@ -10489,7 +10489,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101320" level="12">
+    <rule id="101320" level="10">
         <!-- LOG_ID_FGSA_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020137$</field>
@@ -10497,7 +10497,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101321" level="12">
+    <rule id="101321" level="10">
         <!-- LOG_ID_SWOS_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020138$</field>
@@ -10505,7 +10505,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101322" level="12">
+    <rule id="101322" level="10">
         <!-- LOG_ID_FGCS_ACC_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020139$</field>
@@ -10513,7 +10513,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101323" level="12">
+    <rule id="101323" level="10">
         <!-- LOG_ID_FSPA_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020140$</field>
@@ -10521,7 +10521,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="101324" level="12">
+    <rule id="101324" level="10">
         <!-- LOG_ID_FSFG_LIC_EXPIRE -->
         <if_sid>100010</if_sid>
         <field name="logid">020141$</field>

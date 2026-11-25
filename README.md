@@ -21,3 +21,19 @@ I am working hard on that to improve and expand the functionalities. Leave a sta
    ```bash
    systemctl restart wazuh-manager
    ```
+
+## Wazuh manager IOC list registration
+
+The bundled Wazuh IOC rules `99901–99920` require three CDB lists to be registered in the manager configuration. This is separate from the FortiGate rules and decoders in this repository. On managers upgraded from Wazuh 4.12.x or earlier, the list files may exist while their configuration declarations are missing.
+
+Verify that these files exist and contain the intended indicators. Add each reference once inside the existing `<ruleset>` block in `/var/ossec/etc/ossec.conf`, preserving the other settings:
+
+```xml
+<list>etc/lists/malicious-ioc/malware-hashes</list>
+<list>etc/lists/malicious-ioc/malicious-ip</list>
+<list>etc/lists/malicious-ioc/malicious-domains</list>
+```
+
+Restart the manager and start a fresh Ruleset Test session. Confirm that missing-list warnings and the dependent `99906` warning are gone. Test a known indicator from an installed list and an unlisted control; the control should not match an IOC rule. Registering the lists does not configure automatic indicator-feed updates.
+
+See the [official Wazuh CDB-list upgrade instructions](https://documentation.wazuh.com/current/upgrade-guide/upgrading-central-components.html#configuring-cdb-lists).

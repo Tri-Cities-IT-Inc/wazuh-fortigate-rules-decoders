@@ -7,7 +7,7 @@ I am working hard on that to improve and expand the functionalities. Leave a sta
 ## Features
 
 - **738 Decoders**: For decoding and analyzing Fortigate logs.
-- **1387 Rules**: For categorizing specific logs, facilitating monitoring and event analysis.
+- **1388 Rules**: For categorizing specific logs, facilitating monitoring and event analysis.
 
 ## Installation
 

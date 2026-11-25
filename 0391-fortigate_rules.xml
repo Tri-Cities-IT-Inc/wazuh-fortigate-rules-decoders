@@ -2022,7 +2022,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100262" level="8">
+    <rule id="100262" level="10">
         <!-- LOG_ID_LIC_STATUS_CHG -->
         <if_sid>100010</if_sid>
         <field name="logid">022804$</field>
@@ -2030,7 +2030,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.critical</group>
     </rule>
 
-    <rule id="100263" level="4">
+    <rule id="100263" level="10">
         <!-- LOG_ID_FAIL_TO_VALIDATE_LIC -->
         <if_sid>100010</if_sid>
         <field name="logid">022805$</field>
@@ -2038,7 +2038,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100264" level="4">
+    <rule id="100264" level="10">
         <!-- LOG_ID_DUP_LIC -->
         <if_sid>100010</if_sid>
         <field name="logid">022806$</field>
@@ -2046,7 +2046,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
-    <rule id="100265" level="12">
+    <rule id="100265" level="10">
         <!-- LOG_ID_VDOM_LIC -->
         <if_sid>100010</if_sid>
         <field name="logid">022807$</field>
@@ -3854,7 +3854,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
     
-    <rule id="100491" level="3">
+    <rule id="100491" level="10">
         <!-- LOG_ID_UPD_VDOM_LIC -->
         <if_sid>100010</if_sid>
         <field name="logid">032221$</field>
@@ -3942,7 +3942,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100502" level="4">
+    <rule id="100502" level="10">
         <!-- LOG_ID_RESTORE_VDOM_LIC_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">032232$</field>
@@ -4022,7 +4022,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
     
-    <rule id="100512" level="4">
+    <rule id="100512" level="10">
         <!-- LOG_ID_UPD_VDOM_LIC_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">032242$</field>
@@ -5687,7 +5687,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100720" level="3">
+    <rule id="100720" level="10">
         <!-- LOG_ID_UPD_MANUAL_LICENSE_SUCC -->
         <if_sid>100010</if_sid>
         <field name="logid">041007$</field>
@@ -5695,7 +5695,7 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.notice</group>
     </rule>
 
-    <rule id="100721" level="5">
+    <rule id="100721" level="10">
         <!-- LOG_ID_UPD_MANUAL_LICENSE_FAIL -->
         <if_sid>100010</if_sid>
         <field name="logid">041008$</field>

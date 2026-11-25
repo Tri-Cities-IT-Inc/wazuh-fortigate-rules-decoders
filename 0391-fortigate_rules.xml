@@ -3038,6 +3038,14 @@
         <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
     </rule>
 
+    <!-- Routine automatic event-log retention; keep other deletions at the parent level. -->
+    <rule id="110388" level="10">
+        <if_sid>100388</if_sid>
+        <field name="msg" type="pcre2">^System deleted log file elog\.[0-9]+$</field>
+        <description>Automatic disk log file deleted</description>
+        <group>fortios.event.event,fortios.category.system,fortios.severity.warning</group>
+    </rule>
+
     <rule id="100389" level="2">
         <!-- LOG_ID_SEND_FDS_STAT -->
         <if_sid>100010</if_sid>
